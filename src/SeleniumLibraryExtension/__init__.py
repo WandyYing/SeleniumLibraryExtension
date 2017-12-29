@@ -8,12 +8,24 @@ from SeleniumLibrary import SeleniumLibrary
 from SeleniumLibraryExtension.decorators import DocInherit
 from SeleniumLibraryExtension.version import get_version
 
+from SeleniumLibraryExtension.keywords import ElementKeywordsExtension
+
 __version__ = get_version()
 
 
 @DocInherit
-class ExtendedSeleniumLibrary(SeleniumLibrary):
-    pass
+class SeleniumLibraryExtension(SeleniumLibrary):
+    ROBOT_EXIT_ON_FAILURE = True
+    ROBOT_LIBRARY_SCOPE = 'GLOBAL'
+    ROBOT_LIBRARY_VERSION = __version__
+    def __init__(self, implicit_wait=15.0, **kwargs):
+
+        self._builtin = BuiltIn()
+        SeleniumLibrary.__init__(self, implicit_wait=implicit_wait, **kwargs)
+        self.add_library_components([ElementKeywordsExtension(self)])
+
 
 if __name__=='__main__':
-    esl = ExtendedSeleniumLibrary()
+    esl = SeleniumLibraryExtension()
+    print(dir(esl))
+    print(esl.__init__.__doc__)
