@@ -39,11 +39,11 @@ class KeywordArgumentsWaitingKeywordsTest(unittest.TestCase):
             self.waiting.wait_until_page_contains(text, 'None', 'error')
 
     def test__wait_for_ready_state_complete(self):
-        timeout = 3
+        timeout = 2
         # when(self.waiting)._wait_for_ready_state_complete.thenReturn(None)
         error = "never fully loaded"
         when(self.ctx.driver).execute_script("return document.readyState").thenReturn(None)
         with self.assertRaisesRegex(Exception, error):
-            self.waiting._wait_for_ready_state_complete(2)
+            self.waiting._wait_for_ready_state_complete(timeout)
 
 
