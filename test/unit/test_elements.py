@@ -21,7 +21,7 @@ class ElementKeywordsTests(unittest.TestCase):
         self.driver.session_id = 'session'
         self.element = ElementKeywordsExtension(ctx)
         self.element._current_browser = mock.Mock()
-        self.element._info = mock.Mock()
+        self.element.info = mock.Mock()
 
     def test_should_inherit_keywords(self):
         """Extended element instance should inherit Selenium 3 element instances."""
