@@ -18,8 +18,8 @@ Framework :: Robot Framework
 Framework :: Robot Framework :: Library
 '''.strip().splitlines()
 
-with open(join(CURDIR, 'src', 'SeleniumLibraryExtension', '__init__.py')) as f:
-    VERSION = re.search("\n__version__ = '(.*)'", f.read()).group(1)
+with open(join(CURDIR, 'src', 'SeleniumLibraryExtension', 'version.py')) as f:
+    VERSION = re.search("\nVERSION = '(.*)'", f.read()).group(1)
 
 with open(join(CURDIR, 'requirements.txt')) as f:
     REQUIREMENTS = f.read().splitlines()
