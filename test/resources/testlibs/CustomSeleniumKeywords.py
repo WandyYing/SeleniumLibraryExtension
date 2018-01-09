@@ -1,10 +1,10 @@
 from robot.libraries.BuiltIn import BuiltIn
 
-from SeleniumLibrary import SeleniumLibrary
+from SeleniumLibraryExtension import SeleniumLibraryExtension
 from SeleniumLibrary.base import keyword
 
 
-class CustomSeleniumKeywords(SeleniumLibrary):
+class CustomSeleniumKeywords(SeleniumLibraryExtension):
 
     def __init__(self, *args, **kwargs):
         """Share `SeleniumLibrary`'s cache of browsers, so that
