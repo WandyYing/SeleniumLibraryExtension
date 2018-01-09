@@ -4,7 +4,7 @@
 #    Copyright (c) 2017, 2018 Ying Jun <WandyYing@users.noreply.github.com>
 
 import unittest
-
+import six
 from mockito import mock, unstub, when
 
 # from SeleniumLibrary.keywords import WaitingKeywords
@@ -25,17 +25,17 @@ class KeywordArgumentsWaitingKeywordsTest(unittest.TestCase):
     def test_wait_for_condition(self):
         condition = 'return document.getElementById("intro")'
         error = 'did not become true'
-        with self.assertRaisesRegex(AssertionError, error):
+        with six.assertRaisesRegex(self, AssertionError, error):
             self.waiting.wait_for_condition(condition)
-        with self.assertRaisesRegex(AssertionError, 'foobar'):
+        with six.assertRaisesRegex(self, AssertionError, 'foobar'):
             self.waiting.wait_for_condition(condition, 'None', 'foobar')
 
     def test_wait_until_page_contains(self):
         text = 'text'
         when(self.waiting).is_text_present(text).thenReturn(None)
-        with self.assertRaisesRegex(AssertionError, "Text 'text' did not"):
+        with six.assertRaisesRegex(self, AssertionError, "Text 'text' did not"):
             self.waiting.wait_until_page_contains(text)
-        with self.assertRaisesRegex(AssertionError, "error"):
+        with six.assertRaisesRegex(self, AssertionError, "error"):
             self.waiting.wait_until_page_contains(text, 'None', 'error')
 
     # def test__wait_for_ready_state_complete(self):
