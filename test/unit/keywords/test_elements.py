@@ -6,7 +6,7 @@
 from sys import path
 path.append('src')
 import unittest
-from unittest import mock
+from mockito import mock, unstub, when
 from SeleniumLibraryExtension.keywords import ElementKeywordsExtension
 from selenium.webdriver.remote.webelement import WebElement
 from SeleniumLibrary.keywords import ElementKeywords
@@ -16,12 +16,15 @@ class ElementKeywordsTests(unittest.TestCase):
 
     def setUp(self):
         """Instantiate the extended element class."""
-        ctx = mock.Mock()
-        self.driver = mock.Mock()
+        ctx = mock()
+        self.driver = mock()
         self.driver.session_id = 'session'
         self.element = ElementKeywordsExtension(ctx)
-        self.element._current_browser = mock.Mock()
-        self.element.info = mock.Mock()
+        self.element._current_browser = mock()
+        self.element.info = mock()
+
+    def tearDown(self):
+        unstub()
 
     def test_should_inherit_keywords(self):
         """Extended element instance should inherit Selenium 3 element instances."""
