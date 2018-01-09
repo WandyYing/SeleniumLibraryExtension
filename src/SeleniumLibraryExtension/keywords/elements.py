@@ -14,7 +14,7 @@ class ElementKeywordsExtension(ElementKeywords):
     def __init__(self, ctx):
         super(ElementKeywordsExtension, self).__init__(ctx)
 
-    @keyword
+    # @keyword
     def click_element(self, locator, skip_ready=False):
         """Clicks an element identified by ``locator``.
 

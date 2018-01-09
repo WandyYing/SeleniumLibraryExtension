@@ -1,5 +1,5 @@
 from SeleniumLibraryExtension import SeleniumLibraryExtension
-from SeleniumLibraryExtension.base import keyword
+from SeleniumLibrary.base import keyword
 
 
 class ExtSL(SeleniumLibraryExtension):
