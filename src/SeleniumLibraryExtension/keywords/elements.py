@@ -29,7 +29,7 @@ class ElementKeywordsExtension(ElementKeywords):
         | Click Element | css=div.class | True |
         """
         # pylint: disable=no-member
-        self._info("Clicking element '%s'." % locator)
+        self.info("Clicking element '%s'." % locator)
         self._get_element_and_scroll_into_view_on_iexplore(locator).click()
         if not skip_ready:
             # pylint: disable=no-member

@@ -1,8 +1,8 @@
-from SeleniumLibrary import SeleniumLibrary
-from SeleniumLibrary.base import keyword
+from SeleniumLibraryExtension import SeleniumLibraryExtension
+from SeleniumLibraryExtension.base import keyword
 
 
-class ExtSL(SeleniumLibrary):
+class ExtSL(SeleniumLibraryExtension):
 
     @keyword
     def ext_web_element(self, locator):

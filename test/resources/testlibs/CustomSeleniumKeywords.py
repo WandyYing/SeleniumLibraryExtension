@@ -11,7 +11,7 @@ class CustomSeleniumKeywords(SeleniumLibrary):
         we don't have to open a separate browser instance for the
         `Run On Failure Keyword Only Called Once` test."""
         super(CustomSeleniumKeywords, self).__init__(*args, **kwargs)
-        sl = BuiltIn().get_library_instance("SeleniumLibrary")
+        sl = BuiltIn().get_library_instance("SeleniumLibraryExtension")
         self._drivers = sl._drivers
 
     @keyword
