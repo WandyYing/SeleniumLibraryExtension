@@ -3,6 +3,7 @@
 
 #    Copyright (c) 2017, 2018 Ying Jun <WandyYing@users.noreply.github.com>
 
+import time
 from SeleniumLibrary.base.context import ContextAware
 
 class ContextPatch(object):
@@ -44,10 +45,11 @@ class ContextPatch(object):
                     element.setAttribute('style', original_style + "box-shadow: 0px 0px 6px 6px rgba(0, 255, 0, 1);");
                     setTimeout(function(){
                         element.setAttribute('style', original_style);
-                }, 300);
-                element.scrollIntoView();
+                }, 200);
+                 element.scrollIntoView();
                 """
             self.driver.execute_script(script, element)
+            time.sleep(0.031)
         return element
 
     ContextAware.find_element = find_element
