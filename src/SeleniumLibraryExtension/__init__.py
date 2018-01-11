@@ -10,6 +10,8 @@ from SeleniumLibraryExtension.version import get_version
 
 from SeleniumLibraryExtension.keywords import ElementKeywordsExtension
 
+from SeleniumLibraryExtension.base.contextpatch import ContextPatch
+
 __version__ = get_version()
 
 
