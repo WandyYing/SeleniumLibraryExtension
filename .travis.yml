@@ -66,4 +66,4 @@ before_script:
   - pip install selenium==$SELENIUM
   - pip install robotframework==$ROBOTFRAMEWORK
 script:
-  - travis_wait python test/run_tests.py $BROWSER $ROBOT_OPTIONS
+  - python test/run_tests.py $BROWSER $ROBOT_OPTIONS
