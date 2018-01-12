@@ -38,7 +38,7 @@ class ContextPatch(object):
             #             element.setAttribute('style', original_style);
             #     }, 300);
             #     element.scrollIntoView();
-            #     """
+            #    element.scrollIntoView(); """
             script = """
                     element = arguments[0];
                     original_style = element.getAttribute('style');
@@ -46,10 +46,9 @@ class ContextPatch(object):
                     setTimeout(function(){
                         element.setAttribute('style', original_style);
                 }, 200);
-                 element.scrollIntoView();
                 """
             self.driver.execute_script(script, element)
-            time.sleep(0.031)
+            time.sleep(0.021)
         return element
 
     ContextAware.find_element = find_element
