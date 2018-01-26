@@ -3,7 +3,7 @@
 
 #    Copyright (c) 2017, 2018 Ying Jun <WandyYing@users.noreply.github.com>
 
-VERSION = '0.0.6'
+VERSION = '0.0.7'
 
 
 def get_version():

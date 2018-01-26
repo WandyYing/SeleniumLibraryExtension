@@ -25,7 +25,7 @@ class SeleniumLibraryExtension(SeleniumLibrary, ContextPatch):
         self._builtin = BuiltIn()
         SeleniumLibrary.__init__(self, implicit_wait=implicit_wait, **kwargs)
         ContextPatch.__init__(self)
-        # self.add_library_components([ElementKeywordsExtension(self)])
+        self.add_library_components([ElementKeywordsExtension(self)])
 
 if __name__=='__main__':
     esl = SeleniumLibraryExtension()
