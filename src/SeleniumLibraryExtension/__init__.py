@@ -16,16 +16,16 @@ __version__ = get_version()
 
 
 @DocInherit
-class SeleniumLibraryExtension(SeleniumLibrary):
-    ROBOT_EXIT_ON_FAILURE = True
+class SeleniumLibraryExtension(SeleniumLibrary, ContextPatch):
+    # ROBOT_EXIT_ON_FAILURE = True
     ROBOT_LIBRARY_SCOPE = 'GLOBAL'
     ROBOT_LIBRARY_VERSION = __version__
     def __init__(self, implicit_wait=15.0, **kwargs):
 
         self._builtin = BuiltIn()
         SeleniumLibrary.__init__(self, implicit_wait=implicit_wait, **kwargs)
-        self.add_library_components([ElementKeywordsExtension(self)])
-
+        ContextPatch.__init__(self)
+        # self.add_library_components([ElementKeywordsExtension(self)])
 
 if __name__=='__main__':
     esl = SeleniumLibraryExtension()

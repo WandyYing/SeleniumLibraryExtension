@@ -7,6 +7,8 @@ import time
 from SeleniumLibrary.base.context import ContextAware
 
 class ContextPatch(object):
+    def __init__(self):
+        pass
 
     def find_element(self, locator, tag=None, required=True, parent=None):
         """Find element matching `locator`.
@@ -38,17 +40,18 @@ class ContextPatch(object):
             #             element.setAttribute('style', original_style);
             #     }, 300);
             #     element.scrollIntoView();
-            #    element.scrollIntoView(); """
+            #  """
             script = """
                     element = arguments[0];
                     original_style = element.getAttribute('style');
                     element.setAttribute('style', original_style + "box-shadow: 0px 0px 6px 6px rgba(0, 255, 0, 1);");
                     setTimeout(function(){
                         element.setAttribute('style', original_style);
-                }, 200);
+                }, 300);
                 """
             self.driver.execute_script(script, element)
-            time.sleep(0.021)
+            print("find&highlight&sleep")
+            time.sleep(0.310)
         return element
 
     ContextAware.find_element = find_element

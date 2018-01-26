@@ -34,3 +34,15 @@ class ElementKeywordsExtension(ElementKeywords):
         if not skip_ready:
             # pylint: disable=no-member
             self._wait_until_page_ready()
+
+
+    @keyword
+    def click_element_js(self, locator):
+        """JavaScript click element identified by `locator`.
+
+        Examples:
+        | Click Element Js | btn |
+        """
+        element = self.find_element(locator)
+        self.info("JavaScript clicking element '%s'" % (locator))
+        self.driver.execute_script("arguments[0].click();", element)
