@@ -66,4 +66,4 @@ before_script:
   - pip install selenium==$SELENIUM
   - pip install robotframework==$ROBOTFRAMEWORK
 script:
-  - python test/run_tests.py $BROWSER $ROBOT_OPTIONS
+  - python atest/run.py $BROWSER $ROBOT_OPTIONS
