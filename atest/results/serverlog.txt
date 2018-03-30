@@ -1,0 +1,423 @@
+127.0.0.1 - - [30/Mar/2018 12:30:03] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:03] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:30:03] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:30:12] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:12] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:30:12] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 52485)
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\Lib\socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\Python36\Lib\socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\Python36\Lib\socketserver.py", line 696, in __init__
+    self.handle()
+  File "C:\Program Files\Python36\Lib\http\server.py", line 418, in handle
+    self.handle_one_request()
+  File "C:\Program Files\Python36\Lib\http\server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Program Files\Python36\Lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+127.0.0.1 - - [30/Mar/2018 12:30:21] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:21] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:30:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:30:21] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:22] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:22] "GET /html/javascript/alert.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:22] "GET /html/javascript/alert.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:22] "GET /html/javascript/alert.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:22] "GET /html/javascript/alert.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:23] "GET /html/javascript/alert.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:25] "GET /html/javascript/alert.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:26] "GET /html/javascript/alert.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:26] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:26] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:27] "GET /html/javascript/alert.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:27] "GET /html/javascript/alert_prompt.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:27] "GET /html/javascript/alert_prompt.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:27] "GET /html/javascript/alert_prompt.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:27] "GET /html/javascript/alert_prompt.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:28] "GET /html/javascript/alert_prompt.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:28] "GET /html/javascript/alert_prompt.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:29] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:29] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:29] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:29] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:29] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:30] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:30] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:30] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:30] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:30] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:31] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:31] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:30:31] "GET /html/javascript/javascript/dynamic HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:30:31] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:31] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:31] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:32] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:32] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:33] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:34] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:34] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:35] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:35] "GET /html/javascript/click.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:36] "GET /html/javascript/click.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:36] "GET /html/javascript/click.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:36] "GET /html/javascript/click.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:36] "GET /html/javascript/click.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:37] "GET /html/javascript/click_at_coordinates.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:37] "GET /html/javascript/click_at_coordinates.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:37] "GET /html/javascript/click_at_coordinates.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:37] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:37] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:38] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:38] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:38] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:39] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:39] "GET /html/frames/frameset.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:40] "GET /html/frames/left.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:40] "GET /html/frames/right.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:40] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:30:40] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:30:40] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:30:40] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:30:41] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:41] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:41] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:42] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:42] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:42] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:43] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:43] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:43] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:44] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:44] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:44] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:44] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:45] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:45] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:45] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:46] "GET /html/image.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:46] "GET /html/robot.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:46] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:46] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:46] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:47] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:47] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:48] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:48] "GET /html/forms/email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:49] "GET /html/forms/email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:49] "GET /html/forms/email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:49] "GET /html/forms/email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:49] "GET /html/forms/buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:50] "GET /html/forms/buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:50] "GET /html/forms/buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:51] "GET /html/cookies.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:53] "GET /html/forms/login.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:54] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:54] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:54] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:54] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:54] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:55] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:55] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:55] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:56] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:56] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:30:56] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:03] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:03] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:03] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:03] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:04] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:04] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:04] "GET /html// HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:04] "GET /html/tables/tables.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:04] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:05] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:05] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:05] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:06] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:06] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:06] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:06] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:06] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:07] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:07] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:07] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:07] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:08] "GET /html/forms/enabled_disabled_fields_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:08] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:08] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:08] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:08] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:09] "GET /html/visibility.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:09] "GET /html/visibility.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:09] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:09] "GET /html/image.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:09] "GET /html/robot.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:10] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:11] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:11] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:11] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:11] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:11] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:11] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:12] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:12] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:12] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:12] "GET /html/forms/named_submit_buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:12] "GET /html/forms/form_without_name.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:13] "GET /html/forms/named_submit_buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:13] "GET /html/forms/named_submit_buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:13] "GET /html/forms/named_submit_buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:13] "GET /html/forms/buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:14] "GET /html/forms/buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:14] "GET /html/forms/buttons.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:14] "GET /html/forms/file_upload_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:15] "GET /html/forms/form_with_image_submit.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:15] "GET /html/forms/robot.bmp HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:15] "GET /html/frames/frameset.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:15] "GET /html/frames/left.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:15] "GET /html/frames/right.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:15] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:15] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:16] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:16] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:16] "GET /html/frames/iframes.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:16] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:16] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:16] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:16] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:16] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:16] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:16] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:16] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:16] "GET /html/frames/frameset.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:17] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:17] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:17] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:17] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:17] "GET /html/frames/frameset.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:17] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:17] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:17] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:17] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:17] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:17] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:17] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:17] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/frames/poorlynamedframe.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/frames/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/frames/bar.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:18] "GET /html/javascript/mouse_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:19] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:19] "GET /html/javascript/foo.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:19] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:19] "GET /html/javascript/dynamic_content.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:19] "GET /html/javascript/context_menu.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:19] "GET /html/javascript/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:19] "GET /html/javascript/jquery.contextMenu.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:19] "GET /html/javascript/jquery.contextMenu.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:20] "GET /html/javascript/drag_and_drop.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:20] "GET /html/javascript/jquery-ui.css HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:20] "GET /html/javascript/jquery-ui.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:20] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:20] "GET /html/javascript/images/ui-bg_highlight-soft_75_cccccc_1x100.png HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:20] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:20] "GET /html/javascript/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:20] "GET /html/javascript/drag_and_drop.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:20] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:20] "GET /html/javascript/images/ui-bg_highlight-soft_75_cccccc_1x100.png HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:20] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:20] "GET /html/javascript/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:21] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:21] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:21] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:21] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:21] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:22] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:22] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:22] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:23] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:23] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:23] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:23] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:24] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:24] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:24] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:24] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:24] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:25] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:25] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:25] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:25] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:25] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:26] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:26] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:26] "GET /html/mouse/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:26] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:26] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:27] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:27] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:27] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:27] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:28] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:28] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:28] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:29] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:29] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:29] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:30] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:30] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:30] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:30] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:50] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:50] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:50] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:31:56] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:31:56] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:31:56] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 51014)
+Traceback (most recent call last):
+  File "C:\Program Files\Python36\Lib\socketserver.py", line 639, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Program Files\Python36\Lib\socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Program Files\Python36\Lib\socketserver.py", line 696, in __init__
+    self.handle()
+  File "C:\Program Files\Python36\Lib\http\server.py", line 418, in handle
+    self.handle_one_request()
+  File "C:\Program Files\Python36\Lib\http\server.py", line 386, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "C:\Program Files\Python36\Lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+----------------------------------------
+127.0.0.1 - - [30/Mar/2018 12:32:05] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:06] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:32:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:32:06] "GET /html/scroll/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:06] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:19] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:19] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:32:19] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:32:20] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:31] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:31] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:32:31] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:32:31] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:37] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:37] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:32:37] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:32:37] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:38] "GET /html/tables/tables.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:43] "GET /html/forms/login.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:43] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:45] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:45] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:45] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:45] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:46] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:47] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:47] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:47] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:47] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:48] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:32:48] "GET /html/javascript/delayed_events.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:00] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:00] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:33:00] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:33:01] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:01] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:01] "GET /html/image.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:01] "GET /html/robot.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:01] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:01] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:02] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:02] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:02] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:02] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:03] "GET /html/jquery.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:03] "GET /html/javascript/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:03] "GET /html/jquery.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:03] "GET /html/jquery.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:12] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:12] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:33:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:33:19] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:19] "GET /html/image.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:19] "GET /html/robot.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:20] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:33:20] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:33:26] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:27] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:33:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:33:36] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:36] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:33:36] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:33:49] "GET /html/links.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:49] "GET /html/image.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:49] "GET /html/robot.png HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:33:50] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:33:50] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:34:05] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:34:05] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:34:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:34:14] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:34:15] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:34:15] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:34:33] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:34:33] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:34:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:34:39] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:34:40] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:34:40] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:34:46] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:34:47] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:34:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:34:56] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:34:57] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:34:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:35:04] "GET /html/forms/prefilled_email_form.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:04] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:35:04] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:35:24] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:24] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:35:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:35:33] "GET /html/ HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:33] code 404, message File not found
+127.0.0.1 - - [30/Mar/2018 12:35:33] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [30/Mar/2018 12:35:33] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:34] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:34] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:34] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:34] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:35] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:35] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:35] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:37] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:37] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:37] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:38] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:38] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:38] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:38] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:38] "GET /html/javascript/popupwindow.html HTTP/1.1" 200 -
+127.0.0.1 - - [30/Mar/2018 12:35:44] "QUIT / HTTP/1.1" 200 -

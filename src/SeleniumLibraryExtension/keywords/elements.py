@@ -7,12 +7,12 @@ from robot.api import logger
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.remote.webelement import WebElement
 from SeleniumLibrary.keywords import ElementKeywords
-from SeleniumLibrary.base import keyword
+from SeleniumLibrary.base import keyword, LibraryComponent
 
-class ElementKeywordsExtension(ElementKeywords):
+class ElementKeywordsExtension(LibraryComponent):
 
     def __init__(self, ctx):
-        super(ElementKeywordsExtension, self).__init__(ctx)
+        LibraryComponent.__init__(self, ctx)
 
     # @keyword
     def click_element(self, locator, skip_ready=False):

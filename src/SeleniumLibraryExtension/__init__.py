@@ -16,15 +16,20 @@ __version__ = get_version()
 
 
 @DocInherit
-class SeleniumLibraryExtension(SeleniumLibrary, ContextPatch):
+class SeleniumLibraryExtension(SeleniumLibrary):
     # ROBOT_EXIT_ON_FAILURE = True
     ROBOT_LIBRARY_SCOPE = 'GLOBAL'
     ROBOT_LIBRARY_VERSION = __version__
-    def __init__(self, implicit_wait=15.0, **kwargs):
 
-        self._builtin = BuiltIn()
-        SeleniumLibrary.__init__(self, implicit_wait=implicit_wait, **kwargs)
-        ContextPatch.__init__(self)
+    def __init__(self, timeout=5.0, implicit_wait=0.0,
+                 run_on_failure='Capture Page Screenshot',
+                 screenshot_root_directory=None):
+
+        # self._builtin = BuiltIn()
+        SeleniumLibrary.__init__(self, timeout=timeout, implicit_wait=implicit_wait,
+                                 run_on_failure=run_on_failure,
+                                 screenshot_root_directory=screenshot_root_directory)
+        # ContextPatch.__init__(self)
         self.add_library_components([ElementKeywordsExtension(self)])
 
 if __name__=='__main__':

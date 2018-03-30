@@ -13,15 +13,15 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.expected_conditions import staleness_of, visibility_of
 from selenium.webdriver.support.ui import WebDriverWait
 from SeleniumLibrary.keywords import WaitingKeywords
-from SeleniumLibrary.base import keyword
+from SeleniumLibrary.base import keyword, LibraryComponent
 from SeleniumLibraryExtension.decorators import DocInherit
 from SeleniumLibraryExtension.config import settings
 
 
 @DocInherit
-class WaitingKeywordsExtension(WaitingKeywords):
+class WaitingKeywordsExtension(LibraryComponent):
     """WaitingKeywordsExtension are waiting related execution towards the requested browser."""
 
 
     def __init__(self, ctx):
-        super(WaitingKeywordsExtension, self).__init__(ctx)
+        LibraryComponent.__init__(self, ctx)

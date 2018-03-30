@@ -1,0 +1,1722 @@
+20180330 12:29:56.513 | INFO  | Robot Framework 3.0.2 (Python 3.6.2 on win32)
+20180330 12:29:56.515 | INFO  | Arguments: C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance
+20180330 12:29:56.516 | INFO  | Settings:
+ConsoleColors: AUTO
+ConsoleMarkers: AUTO
+ConsoleType: verbose
+ConsoleTypeDotted: False
+ConsoleTypeQuiet: False
+ConsoleWidth: 78
+Critical: None
+DebugFile: None
+Doc: SeleniumLibrary acceptance tests with chrome
+DryRun: False
+Exclude: []
+ExitOnError: False
+ExitOnFailure: False
+Extension: None
+FlattenKeywords: []
+Include: []
+Listeners: []
+Log: None
+LogLevel: DEBUG
+LogTitle: None
+Metadata: []
+Name: None
+NonCritical: None
+Output: output.xml
+OutputDir: C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\results
+PreRebotModifiers: []
+PreRunModifiers: []
+Randomize: NONE
+ReRunFailed: []
+ReRunFailedSuites: []
+RemoveKeywords: []
+Report: None
+ReportBackground: ('#9e9', '#9e9', '#f66')
+ReportTitle: None
+RunEmptySuite: False
+SetTag: []
+SkipTeardownOnExit: False
+SplitLog: False
+StatusRC: True
+StdErr: None
+StdOut: None
+SuiteNames: []
+SuiteStatLevel: -1
+TagDoc: []
+TagStatCombine: []
+TagStatExclude: []
+TagStatInclude: []
+TagStatLink: []
+TestNames: []
+TimestampOutputs: False
+VariableFiles: []
+Variables: ['BROWSER:chrome']
+VisibleLogLevel: DEBUG
+WarnOnSkipped: False
+XUnit: None
+XUnitSkipNonCritical: False
+20180330 12:29:56.516 | INFO  | Parsing test data directory 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance'
+20180330 12:29:56.518 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\__init__.robot'.
+20180330 12:29:56.519 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\create_webdriver.robot'.
+20180330 12:29:56.521 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\extending.robot'.
+20180330 12:29:56.522 | INFO  | Parsing test data directory 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords'
+20180330 12:29:56.524 | INFO  | Ignoring file or directory 'executed_by_execute_javascript.js'.
+20180330 12:29:56.524 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\__init__.robot'.
+20180330 12:29:56.525 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\alerts.robot'.
+20180330 12:29:56.532 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\async_javascript.robot'.
+20180330 12:29:56.535 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\checkbox_and_radio_buttons.robot'.
+20180330 12:29:56.538 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\click_element.robot'.
+20180330 12:29:56.539 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\click_element_at_coordinates.robot'.
+20180330 12:29:56.541 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\content_assertions.robot'.
+20180330 12:29:56.551 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\cookies.robot'.
+20180330 12:29:56.557 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\counting_elements.robot'.
+20180330 12:29:56.562 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\element_focus.robot'.
+20180330 12:29:56.565 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\element_should_be_enabled_and_disabled.robot'.
+20180330 12:29:56.568 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\element_visibility.robot'.
+20180330 12:29:56.571 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\elements.robot'.
+20180330 12:29:56.576 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\forms_and_buttons.robot'.
+20180330 12:29:56.579 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\frames.robot'.
+20180330 12:29:56.581 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\javascript.robot'.
+20180330 12:29:56.583 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\lists.robot'.
+20180330 12:29:56.590 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\mouse.robot'.
+20180330 12:29:56.591 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\navigation.robot'.
+20180330 12:29:56.595 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\run_on_failure.robot'.
+20180330 12:29:56.597 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\screenshots.robot'.
+20180330 12:29:56.604 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\scroll_into_view.robot'.
+20180330 12:29:56.605 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\set_selenium_speed.robot'.
+20180330 12:29:56.607 | INFO  | Parsing test data directory 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables'
+20180330 12:29:56.609 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\__init__.robot'.
+20180330 12:29:56.609 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\col_should_contain.robot'.
+20180330 12:29:56.611 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\finding_tables.robot'.
+20180330 12:29:56.612 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\footer_should_contain.robot'.
+20180330 12:29:56.614 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\get_table_cell.robot'.
+20180330 12:29:56.616 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\header_should_contain.robot'.
+20180330 12:29:56.618 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\negative_indexes.robot'.
+20180330 12:29:56.619 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\row_should_contain.robot'.
+20180330 12:29:56.621 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot'.
+20180330 12:29:56.621 | INFO  | Parsing data source 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' failed: File has no test case table.
+20180330 12:29:56.622 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_should_contain.robot'.
+20180330 12:29:56.623 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\textfields.robot'.
+20180330 12:29:56.625 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\waiting.robot'.
+20180330 12:29:56.628 | INFO  | Parsing test data directory 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\locators'
+20180330 12:29:56.630 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\locators\__init__.robot'.
+20180330 12:29:56.631 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\locators\custom.robot'.
+20180330 12:29:56.633 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\locators\locator_parsing.robot'.
+20180330 12:29:56.634 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\locators\sizzle.robot'.
+20180330 12:29:56.636 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\multiple_browsers.robot'.
+20180330 12:29:56.638 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\open_and_close.robot'.
+20180330 12:29:56.640 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\public_api.robot'.
+20180330 12:29:56.641 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot'.
+20180330 12:29:56.644 | INFO  | Parsing data source 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' failed: File has no test case table.
+20180330 12:29:56.644 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\windows.robot'.
+20180330 12:29:56.715 | INFO  | No debug file
+20180330 12:29:56.721 | INFO  | Initializing namespace for test suite 'Acceptance'
+20180330 12:29:56.731 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:29:56.733 | INFO  | Adding keyword 'ROBOT_LIBRARY_SCOPE' to library 'BuiltIn' failed: Not a method or function
+20180330 12:29:56.733 | INFO  | Adding keyword 'ROBOT_LIBRARY_VERSION' to library 'BuiltIn' failed: Not a method or function
+20180330 12:29:56.747 | INFO  | Imported library 'BuiltIn' with arguments [ ] (version 3.0.2, class type, global scope, 103 keywords)
+20180330 12:29:56.749 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:29:56.751 | INFO  | Imported library 'Reserved' with arguments [ ] (version <unknown>, dynamic type, global scope, 10 keywords)
+20180330 12:29:56.752 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:29:56.753 | INFO  | Adding keyword 'logger' to library 'Easter' failed: Not a method or function
+20180330 12:29:56.753 | INFO  | Imported library 'Easter' with arguments [ ] (version <unknown>, module type, global scope, 1 keywords)
+20180330 12:29:56.753 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot'.
+20180330 12:29:56.756 | INFO  | Imported resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' (11 keywords).
+20180330 12:29:57.022 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:29:57.080 | INFO  | Imported library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] (version 0.0.8, dynamic type, global scope, 178 keywords, with listener)
+20180330 12:29:57.081 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:29:57.082 | INFO  | Adding keyword 'ROBOT_LIBRARY_SCOPE' to library 'Collections' failed: Not a method or function
+20180330 12:29:57.082 | INFO  | Adding keyword 'ROBOT_LIBRARY_VERSION' to library 'Collections' failed: Not a method or function
+20180330 12:29:57.088 | INFO  | Imported library 'Collections' with arguments [ ] (version 3.0.2, class type, global scope, 43 keywords)
+20180330 12:29:57.090 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:29:57.090 | INFO  | Adding keyword 'ROBOT_LIBRARY_SCOPE' to library 'OperatingSystem' failed: Not a method or function
+20180330 12:29:57.090 | INFO  | Adding keyword 'ROBOT_LIBRARY_VERSION' to library 'OperatingSystem' failed: Not a method or function
+20180330 12:29:57.096 | INFO  | Imported library 'OperatingSystem' with arguments [ ] (version 3.0.2, class type, global scope, 56 keywords)
+20180330 12:29:57.096 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:29:57.097 | INFO  | Adding keyword 'Date' to library 'DateTime' failed: Not a method or function
+20180330 12:29:57.097 | INFO  | Adding keyword 'IRONPYTHON' to library 'DateTime' failed: Not a method or function
+20180330 12:29:57.097 | INFO  | Adding keyword 'Time' to library 'DateTime' failed: Not a method or function
+20180330 12:29:57.097 | INFO  | Adding keyword 'datetime' to library 'DateTime' failed: Not a method or function
+20180330 12:29:57.097 | INFO  | Adding keyword 'elapsed_time_to_string' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Adding keyword 'get_version' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Adding keyword 'is_falsy' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Adding keyword 'is_number' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Adding keyword 'is_string' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Adding keyword 're' to library 'DateTime' failed: Not a method or function
+20180330 12:29:57.098 | INFO  | Adding keyword 'roundup' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Adding keyword 'secs_to_timestr' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Adding keyword 'time' to library 'DateTime' failed: Not a method or function
+20180330 12:29:57.098 | INFO  | Adding keyword 'timedelta' to library 'DateTime' failed: Not a method or function
+20180330 12:29:57.098 | INFO  | Adding keyword 'timestr_to_secs' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Adding keyword 'type_name' to library 'DateTime' failed: Not exposed as a keyword
+20180330 12:29:57.098 | INFO  | Imported library 'DateTime' with arguments [ ] (version 3.0.2, module type, global scope, 8 keywords)
+20180330 12:29:57.100 | INFO  | Started test suite 'Acceptance'
+20180330 12:29:57.101 | INFO  | Initializing namespace for test suite 'Acceptance.Create Webdriver'
+20180330 12:29:57.101 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:29:57.102 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:29:57.102 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:29:57.103 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:29:57.103 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:29:57.103 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:29:57.104 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:29:57.105 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:29:57.105 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:29:57.105 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:29:57.106 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:29:57.106 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:29:57.106 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:29:57.107 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:29:57.107 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:29:57.107 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:29:57.107 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:29:57.107 | INFO  | Test library 'Collections' already imported by suite 'Acceptance.Create Webdriver'
+20180330 12:29:57.108 | INFO  | Started test suite 'Create Webdriver'
+20180330 12:29:57.109 | INFO  | Started test case 'Create Webdriver Creates Functioning WebDriver'
+20180330 12:30:07.001 | INFO  | Ended test case 'Create Webdriver Creates Functioning WebDriver'
+20180330 12:30:07.002 | INFO  | Started test case 'Create Webdriver With Bad Driver Name'
+20180330 12:30:07.014 | INFO  | Ended test case 'Create Webdriver With Bad Driver Name'
+20180330 12:30:07.015 | INFO  | Started test case 'Create Webdriver With Duplicate Arguments'
+20180330 12:30:07.025 | INFO  | Ended test case 'Create Webdriver With Duplicate Arguments'
+20180330 12:30:07.026 | INFO  | Started test case 'Create Webdriver With Bad Keyword Argument Dictionary'
+20180330 12:30:07.030 | INFO  | Ended test case 'Create Webdriver With Bad Keyword Argument Dictionary'
+20180330 12:30:07.032 | INFO  | Ended test suite 'Create Webdriver'
+20180330 12:30:07.033 | INFO  | Initializing namespace for test suite 'Acceptance.Extending'
+20180330 12:30:07.033 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:07.033 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:07.034 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:07.034 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:07.034 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:07.035 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:07.035 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:07.037 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:07.037 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:07.038 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:07.042 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:07.042 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:07.043 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:07.043 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:07.043 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:07.049 | INFO  | Imported test library class 'ExtSL.ExtSL' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\resources\testlibs\ExtSL.py'.
+20180330 12:30:07.107 | INFO  | Imported library 'ExtSL.ExtSL' with arguments [ ] (version 3.1.1, dynamic type, global scope, 179 keywords, with listener)
+20180330 12:30:07.109 | INFO  | Imported library 'ExtSL.ExtSL' with name 'ExtSeLib'
+20180330 12:30:07.110 | INFO  | Started test suite 'Extending'
+20180330 12:30:12.801 | INFO  | Started test case 'When Extending SeleniumLibrary Keywords With Decorated Name Can Be Used For Extending'
+20180330 12:30:12.851 | INFO  | Ended test case 'When Extending SeleniumLibrary Keywords With Decorated Name Can Be Used For Extending'
+20180330 12:30:12.851 | INFO  | Started test case 'When Extending SeleniumLibrary Keywords With Method Name Can Be Used For Extending'
+20180330 12:30:12.911 | WARN  | Keyword 'Capture Page Screenshot' could not be run on failure: Multiple keywords with name 'Capture Page Screenshot' found. Give the full name of the keyword you want to use:
+    ExtSeLib.Capture Page Screenshot
+    SeleniumLibraryExtension.Capture Page Screenshot
+20180330 12:30:12.919 | INFO  | Ended test case 'When Extending SeleniumLibrary Keywords With Method Name Can Be Used For Extending'
+20180330 12:30:16.101 | INFO  | Ended test suite 'Extending'
+20180330 12:30:16.101 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords'
+20180330 12:30:16.102 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:16.103 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:16.103 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:16.104 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:16.105 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:16.105 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:16.106 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:16.107 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:16.107 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:16.107 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:16.108 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:16.109 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:16.109 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:16.109 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:16.109 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:16.111 | INFO  | Started test suite 'Keywords'
+20180330 12:30:21.789 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Alerts'
+20180330 12:30:21.790 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:21.791 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:21.792 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:21.792 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:21.793 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:21.793 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:21.794 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:21.797 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:21.798 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:21.798 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:21.799 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:21.799 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:21.800 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:21.801 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:21.803 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:21.809 | INFO  | Started test suite 'Alerts'
+20180330 12:30:21.830 | INFO  | Started test case 'Handle Alert accepts by default'
+20180330 12:30:22.100 | INFO  | Ended test case 'Handle Alert accepts by default'
+20180330 12:30:22.101 | INFO  | Started test case 'Handle Alert can dismiss'
+20180330 12:30:22.216 | INFO  | Ended test case 'Handle Alert can dismiss'
+20180330 12:30:22.216 | INFO  | Started test case 'Handle Alert can leave open'
+20180330 12:30:22.311 | INFO  | Ended test case 'Handle Alert can leave open'
+20180330 12:30:22.312 | INFO  | Started test case 'Handle Alert with invalid action'
+20180330 12:30:22.404 | INFO  | Ended test case 'Handle Alert with invalid action'
+20180330 12:30:22.405 | INFO  | Started test case 'Handle Alert returns message'
+20180330 12:30:22.609 | INFO  | Ended test case 'Handle Alert returns message'
+20180330 12:30:22.610 | INFO  | Started test case 'Handle Alert with custom timeout'
+20180330 12:30:23.244 | INFO  | Ended test case 'Handle Alert with custom timeout'
+20180330 12:30:23.245 | INFO  | Started test case 'Alert Should Not Be Present'
+20180330 12:30:23.869 | INFO  | Ended test case 'Alert Should Not Be Present'
+20180330 12:30:23.870 | INFO  | Started test case 'Alert Should Not Be Present with custom actions'
+20180330 12:30:23.967 | INFO  | Ended test case 'Alert Should Not Be Present with custom actions'
+20180330 12:30:23.968 | INFO  | Started test case 'Alert Should Not Be Present with custom timeout'
+20180330 12:30:24.795 | INFO  | Ended test case 'Alert Should Not Be Present with custom timeout'
+20180330 12:30:24.796 | INFO  | Started test case 'Alert Should Be Present'
+20180330 12:30:26.192 | INFO  | Ended test case 'Alert Should Be Present'
+20180330 12:30:26.193 | INFO  | Started test case 'Alert Should Be Present with message validation'
+20180330 12:30:26.286 | INFO  | Ended test case 'Alert Should Be Present with message validation'
+20180330 12:30:26.288 | INFO  | Started test case 'Alert Should Be Present accepts by default'
+20180330 12:30:26.380 | INFO  | Ended test case 'Alert Should Be Present accepts by default'
+20180330 12:30:26.380 | INFO  | Started test case 'Alert Should Be Present can dismiss'
+20180330 12:30:26.688 | INFO  | Ended test case 'Alert Should Be Present can dismiss'
+20180330 12:30:26.689 | INFO  | Started test case 'Alert Should Be Present can leave alert open'
+20180330 12:30:26.807 | INFO  | Ended test case 'Alert Should Be Present can leave alert open'
+20180330 12:30:26.808 | INFO  | Started test case 'Alert Should Be Present with custom timeout'
+20180330 12:30:27.165 | INFO  | Ended test case 'Alert Should Be Present with custom timeout'
+20180330 12:30:27.165 | INFO  | Started test case 'Get Alert Message'
+20180330 12:30:27.265 | INFO  | Ended test case 'Get Alert Message'
+20180330 12:30:27.266 | INFO  | Started test case 'Get Alet Message dismisses by default'
+20180330 12:30:27.356 | INFO  | Ended test case 'Get Alet Message dismisses by default'
+20180330 12:30:27.357 | INFO  | Started test case 'Get Alert Message can leave alert open'
+20180330 12:30:27.443 | INFO  | Ended test case 'Get Alert Message can leave alert open'
+20180330 12:30:27.443 | INFO  | Started test case 'Input Text Into Alert'
+20180330 12:30:27.558 | INFO  | Ended test case 'Input Text Into Alert'
+20180330 12:30:27.559 | INFO  | Started test case 'Input Text Into Alert can leave alert open'
+20180330 12:30:27.678 | INFO  | Ended test case 'Input Text Into Alert can leave alert open'
+20180330 12:30:27.679 | INFO  | Started test case 'Input Text Into Alert can dismiss'
+20180330 12:30:27.984 | INFO  | Ended test case 'Input Text Into Alert can dismiss'
+20180330 12:30:27.984 | INFO  | Started test case 'Input Text Into Alert with custom timeout'
+20180330 12:30:28.538 | INFO  | Ended test case 'Input Text Into Alert with custom timeout'
+20180330 12:30:28.538 | INFO  | Started test case 'Input Text Into Prompt'
+20180330 12:30:28.659 | INFO  | Ended test case 'Input Text Into Prompt'
+20180330 12:30:28.659 | INFO  | Started test case 'Confirm Action'
+20180330 12:30:28.750 | INFO  | Ended test case 'Confirm Action'
+20180330 12:30:28.750 | INFO  | Started test case 'Confirm Action multiple times'
+20180330 12:30:28.860 | INFO  | Ended test case 'Confirm Action multiple times'
+20180330 12:30:28.861 | INFO  | Started test case 'Cancel Action'
+20180330 12:30:28.987 | INFO  | Ended test case 'Cancel Action'
+20180330 12:30:28.987 | INFO  | Started test case 'Dismiss Alert'
+20180330 12:30:29.071 | INFO  | Ended test case 'Dismiss Alert'
+20180330 12:30:29.081 | INFO  | Ended test suite 'Alerts'
+20180330 12:30:29.082 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Async Javascript'
+20180330 12:30:29.082 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:29.083 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:29.083 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:29.084 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:29.084 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:29.085 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:29.088 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:29.090 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:29.090 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:29.091 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:29.091 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:29.091 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:29.092 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:29.092 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:29.093 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:29.094 | INFO  | Started test suite 'Async Javascript'
+20180330 12:30:29.095 | INFO  | Started test case 'Should Not Timeout If Callback Invoked Immediately'
+20180330 12:30:29.164 | INFO  | Ended test case 'Should Not Timeout If Callback Invoked Immediately'
+20180330 12:30:29.165 | INFO  | Started test case 'Should Be Able To Return Javascript Primitives From Async Scripts Neither None Nor Undefined'
+20180330 12:30:29.356 | INFO  | Ended test case 'Should Be Able To Return Javascript Primitives From Async Scripts Neither None Nor Undefined'
+20180330 12:30:29.358 | INFO  | Started test case 'Should Be Able To Return Javascript Primitives From Async Scripts Null And Undefined'
+20180330 12:30:29.547 | INFO  | Ended test case 'Should Be Able To Return Javascript Primitives From Async Scripts Null And Undefined'
+20180330 12:30:29.548 | INFO  | Started test case 'Should Be Able To Return An Array Literal From An Async Script'
+20180330 12:30:29.739 | INFO  | Ended test case 'Should Be Able To Return An Array Literal From An Async Script'
+20180330 12:30:29.743 | INFO  | Started test case 'Should Be Able To Return An Array Object From An Async Script'
+20180330 12:30:29.952 | INFO  | Ended test case 'Should Be Able To Return An Array Object From An Async Script'
+20180330 12:30:29.953 | INFO  | Started test case 'Should Be Able To Return Arrays Of Primitives From Async Scripts'
+20180330 12:30:30.126 | INFO  | Ended test case 'Should Be Able To Return Arrays Of Primitives From Async Scripts'
+20180330 12:30:30.127 | INFO  | Started test case 'Should Timeout If Script Does Not Invoke Callback'
+20180330 12:30:30.320 | INFO  | Ended test case 'Should Timeout If Script Does Not Invoke Callback'
+20180330 12:30:30.321 | INFO  | Started test case 'Should Timeout If Script Does Not Invoke Callback With A Zero Timeout'
+20180330 12:30:30.502 | INFO  | Ended test case 'Should Timeout If Script Does Not Invoke Callback With A Zero Timeout'
+20180330 12:30:30.503 | INFO  | Started test case 'Should Not Timeout If Script Callsback Inside A Zero Timeout'
+20180330 12:30:30.717 | INFO  | Ended test case 'Should Not Timeout If Script Callsback Inside A Zero Timeout'
+20180330 12:30:30.718 | INFO  | Started test case 'Should Timeout If Script Does Not Invoke Callback With Long Timeout'
+20180330 12:30:30.889 | INFO  | Ended test case 'Should Timeout If Script Does Not Invoke Callback With Long Timeout'
+20180330 12:30:30.890 | INFO  | Started test case 'Should Detect Page Loads While Waiting On An Async Script And Return An Error'
+20180330 12:30:31.257 | INFO  | Ended test case 'Should Detect Page Loads While Waiting On An Async Script And Return An Error'
+20180330 12:30:31.259 | INFO  | Started test case 'Should Catch Errors When Executing Initial Script'
+20180330 12:30:31.336 | INFO  | Ended test case 'Should Catch Errors When Executing Initial Script'
+20180330 12:30:31.348 | INFO  | Ended test suite 'Async Javascript'
+20180330 12:30:31.349 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Checkbox And Radio Buttons'
+20180330 12:30:31.350 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:31.350 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:31.350 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:31.351 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:31.351 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:31.351 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:31.353 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:31.356 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:31.356 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:31.357 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:31.357 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:31.357 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:31.358 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:31.358 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:31.359 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:31.360 | INFO  | Started test suite 'Checkbox And Radio Buttons'
+20180330 12:30:31.362 | INFO  | Started test case 'Checkbox Should Be Selected'
+20180330 12:30:31.690 | INFO  | Ended test case 'Checkbox Should Be Selected'
+20180330 12:30:31.691 | INFO  | Started test case 'Checkbox Should Not Be Selected'
+20180330 12:30:31.798 | INFO  | Ended test case 'Checkbox Should Not Be Selected'
+20180330 12:30:31.798 | INFO  | Started test case 'Select Checkbox'
+20180330 12:30:31.909 | INFO  | Ended test case 'Select Checkbox'
+20180330 12:30:31.909 | INFO  | Started test case 'UnSelect Checkbox'
+20180330 12:30:32.208 | INFO  | Ended test case 'UnSelect Checkbox'
+20180330 12:30:32.208 | INFO  | Started test case 'Checkbox keywords don't work with radio buttons'
+20180330 12:30:33.781 | INFO  | Ended test case 'Checkbox keywords don't work with radio buttons'
+20180330 12:30:33.782 | INFO  | Started test case 'Radio Button Should Be Set To'
+20180330 12:30:33.996 | INFO  | Ended test case 'Radio Button Should Be Set To'
+20180330 12:30:33.997 | INFO  | Started test case 'Select Radio Button'
+20180330 12:30:34.173 | INFO  | Ended test case 'Select Radio Button'
+20180330 12:30:34.174 | INFO  | Started test case 'Radio Button Should Not Be Selected'
+20180330 12:30:34.460 | INFO  | Ended test case 'Radio Button Should Not Be Selected'
+20180330 12:30:34.461 | INFO  | Started test case 'Clicking Radio Button Should Trigger Onclick Event'
+20180330 12:30:34.577 | INFO  | Ended test case 'Clicking Radio Button Should Trigger Onclick Event'
+20180330 12:30:34.578 | INFO  | Started test case 'Radio button not found'
+20180330 12:30:35.124 | INFO  | Ended test case 'Radio button not found'
+20180330 12:30:35.125 | INFO  | Started test case 'Radio button keywords don't work with checkboxes'
+20180330 12:30:35.680 | INFO  | Ended test case 'Radio button keywords don't work with checkboxes'
+20180330 12:30:35.686 | INFO  | Ended test suite 'Checkbox And Radio Buttons'
+20180330 12:30:35.687 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Click Element'
+20180330 12:30:35.688 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:35.689 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:35.689 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:35.689 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:35.690 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:35.690 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:35.690 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:35.691 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:35.692 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:35.692 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:35.692 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:35.693 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:35.693 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:35.693 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:35.693 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:35.694 | INFO  | Started test suite 'Click Element'
+20180330 12:30:35.767 | INFO  | Started test case 'Click Element'
+20180330 12:30:36.087 | INFO  | Ended test case 'Click Element'
+20180330 12:30:36.087 | INFO  | Started test case 'Double Click Element'
+20180330 12:30:36.160 | INFO  | Ended test case 'Double Click Element'
+20180330 12:30:36.161 | INFO  | Started test case 'Click Element Error'
+20180330 12:30:36.679 | INFO  | Ended test case 'Click Element Error'
+20180330 12:30:36.680 | INFO  | Started test case 'Double Click Element Error'
+20180330 12:30:36.996 | INFO  | Ended test case 'Double Click Element Error'
+20180330 12:30:37.000 | INFO  | Ended test suite 'Click Element'
+20180330 12:30:37.000 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Click Element At Coordinates'
+20180330 12:30:37.001 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:37.001 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:37.001 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:37.002 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:37.002 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:37.003 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:37.004 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:37.008 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:37.009 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:37.010 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:37.011 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:37.011 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:37.012 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:37.012 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:37.013 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:37.015 | INFO  | Started test suite 'Click Element At Coordinates'
+20180330 12:30:37.357 | INFO  | Started test case 'Click Element At Coordinates'
+20180330 12:30:37.742 | INFO  | Ended test case 'Click Element At Coordinates'
+20180330 12:30:37.744 | INFO  | Ended test suite 'Click Element At Coordinates'
+20180330 12:30:37.744 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Content Assertions'
+20180330 12:30:37.745 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:37.745 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:37.745 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:37.746 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:37.746 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:37.746 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:37.747 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:37.748 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:37.749 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:37.749 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:37.749 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:37.749 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:37.750 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:37.750 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:37.750 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:37.753 | INFO  | Started test suite 'Content Assertions'
+20180330 12:30:37.755 | INFO  | Started test case 'Location Should Be'
+20180330 12:30:37.820 | INFO  | Ended test case 'Location Should Be'
+20180330 12:30:37.822 | INFO  | Started test case 'Location Should Contain'
+20180330 12:30:37.902 | INFO  | Ended test case 'Location Should Contain'
+20180330 12:30:37.903 | INFO  | Started test case 'Title Should Be'
+20180330 12:30:38.003 | INFO  | Ended test case 'Title Should Be'
+20180330 12:30:38.004 | INFO  | Started test case 'Page Should Contain'
+20180330 12:30:38.136 | INFO  | Ended test case 'Page Should Contain'
+20180330 12:30:38.137 | INFO  | Started test case 'Page Should Contain with text having internal elements'
+20180330 12:30:38.243 | INFO  | Ended test case 'Page Should Contain with text having internal elements'
+20180330 12:30:38.244 | INFO  | Started test case 'Page Should Contain With Custom Log Level'
+20180330 12:30:39.112 | INFO  | Ended test case 'Page Should Contain With Custom Log Level'
+20180330 12:30:39.113 | INFO  | Started test case 'Page Should Contain With Disabling Source Logging'
+20180330 12:30:39.663 | INFO  | Ended test case 'Page Should Contain With Disabling Source Logging'
+20180330 12:30:39.664 | INFO  | Started test case 'Page Should Contain With Frames'
+20180330 12:30:40.862 | INFO  | Ended test case 'Page Should Contain With Frames'
+20180330 12:30:40.863 | INFO  | Started test case 'Page Should Not Contain'
+20180330 12:30:41.435 | INFO  | Ended test case 'Page Should Not Contain'
+20180330 12:30:41.436 | INFO  | Started test case 'Page Should Not Contain With Custom Log Level'
+20180330 12:30:41.545 | INFO  | Ended test case 'Page Should Not Contain With Custom Log Level'
+20180330 12:30:41.546 | INFO  | Started test case 'Page Should Not Contain With Disabling Source Logging'
+20180330 12:30:41.639 | INFO  | Ended test case 'Page Should Not Contain With Disabling Source Logging'
+20180330 12:30:41.640 | INFO  | Started test case 'Page Should Contain Element'
+20180330 12:30:41.747 | INFO  | Ended test case 'Page Should Contain Element'
+20180330 12:30:41.747 | INFO  | Started test case 'Page Should Contain Element With Custom Message'
+20180330 12:30:42.356 | INFO  | Ended test case 'Page Should Contain Element With Custom Message'
+20180330 12:30:42.357 | INFO  | Started test case 'Page Should Contain Element With Disabling Source Logging'
+20180330 12:30:42.681 | INFO  | Ended test case 'Page Should Contain Element With Disabling Source Logging'
+20180330 12:30:42.682 | INFO  | Started test case 'Page Should Not Contain Element'
+20180330 12:30:43.307 | INFO  | Ended test case 'Page Should Not Contain Element'
+20180330 12:30:43.308 | INFO  | Started test case 'Page Should Not Contain Element With Disabling Source Logging'
+20180330 12:30:43.403 | INFO  | Ended test case 'Page Should Not Contain Element With Disabling Source Logging'
+20180330 12:30:43.404 | INFO  | Started test case 'Element Should Contain'
+20180330 12:30:43.801 | INFO  | Ended test case 'Element Should Contain'
+20180330 12:30:43.802 | INFO  | Started test case 'Element Should Not Contain'
+20180330 12:30:44.047 | INFO  | Ended test case 'Element Should Not Contain'
+20180330 12:30:44.048 | INFO  | Started test case 'Element Text Should Be'
+20180330 12:30:44.203 | INFO  | Ended test case 'Element Text Should Be'
+20180330 12:30:44.204 | INFO  | Started test case 'Element Text Should Not Be'
+20180330 12:30:44.453 | INFO  | Ended test case 'Element Text Should Not Be'
+20180330 12:30:44.453 | INFO  | Started test case 'Get Text'
+20180330 12:30:44.584 | INFO  | Ended test case 'Get Text'
+20180330 12:30:44.587 | INFO  | Started test case 'Page Should Contain Checkbox'
+20180330 12:30:44.692 | INFO  | Ended test case 'Page Should Contain Checkbox'
+20180330 12:30:44.693 | INFO  | Started test case 'Page Should Not Contain Checkbox'
+20180330 12:30:45.103 | INFO  | Ended test case 'Page Should Not Contain Checkbox'
+20180330 12:30:45.105 | INFO  | Started test case 'Page Should Contain Radio Button'
+20180330 12:30:45.249 | INFO  | Ended test case 'Page Should Contain Radio Button'
+20180330 12:30:45.250 | INFO  | Started test case 'Page Should Not Contain Radio Button'
+20180330 12:30:45.761 | INFO  | Ended test case 'Page Should Not Contain Radio Button'
+20180330 12:30:45.762 | INFO  | Started test case 'Page Should Contain Image'
+20180330 12:30:46.186 | INFO  | Ended test case 'Page Should Contain Image'
+20180330 12:30:46.187 | INFO  | Started test case 'Page Should Not Contain Image'
+20180330 12:30:46.842 | INFO  | Ended test case 'Page Should Not Contain Image'
+20180330 12:30:46.843 | INFO  | Started test case 'Page Should Contain Link'
+20180330 12:30:46.954 | INFO  | Ended test case 'Page Should Contain Link'
+20180330 12:30:46.954 | INFO  | Started test case 'Page Should Not Contain Link'
+20180330 12:30:47.325 | INFO  | Ended test case 'Page Should Not Contain Link'
+20180330 12:30:47.326 | INFO  | Started test case 'Page Should Contain List'
+20180330 12:30:47.429 | INFO  | Ended test case 'Page Should Contain List'
+20180330 12:30:47.430 | INFO  | Started test case 'Page Should Not Contain List'
+20180330 12:30:47.754 | INFO  | Ended test case 'Page Should Not Contain List'
+20180330 12:30:47.755 | INFO  | Started test case 'Page Should Contain TextField'
+20180330 12:30:47.867 | INFO  | Ended test case 'Page Should Contain TextField'
+20180330 12:30:47.867 | INFO  | Started test case 'Page Should Not Contain Text Field'
+20180330 12:30:48.807 | INFO  | Ended test case 'Page Should Not Contain Text Field'
+20180330 12:30:48.808 | INFO  | Started test case 'TextField Should Contain'
+20180330 12:30:48.906 | INFO  | Ended test case 'TextField Should Contain'
+20180330 12:30:48.907 | INFO  | Started test case 'TextField Value Should Be'
+20180330 12:30:49.280 | INFO  | Ended test case 'TextField Value Should Be'
+20180330 12:30:49.281 | INFO  | Started test case 'TextArea Should Contain'
+20180330 12:30:49.547 | INFO  | Ended test case 'TextArea Should Contain'
+20180330 12:30:49.548 | INFO  | Started test case 'TextArea Value Should Be'
+20180330 12:30:49.662 | INFO  | Ended test case 'TextArea Value Should Be'
+20180330 12:30:49.663 | INFO  | Started test case 'Page Should Contain Button'
+20180330 12:30:50.230 | INFO  | Ended test case 'Page Should Contain Button'
+20180330 12:30:50.231 | INFO  | Started test case 'Page Should Not Contain Button In Button Tag'
+20180330 12:30:50.827 | INFO  | Ended test case 'Page Should Not Contain Button In Button Tag'
+20180330 12:30:50.828 | INFO  | Started test case 'Page Should Not Contain Button In Input Tag'
+20180330 12:30:51.674 | INFO  | Ended test case 'Page Should Not Contain Button In Input Tag'
+20180330 12:30:51.675 | INFO  | Started test case 'Get All Links'
+20180330 12:30:51.896 | INFO  | Ended test case 'Get All Links'
+20180330 12:30:51.908 | INFO  | Ended test suite 'Content Assertions'
+20180330 12:30:51.911 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Cookies'
+20180330 12:30:51.912 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:51.913 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:51.913 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:51.914 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:51.914 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:51.915 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:51.916 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:51.918 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:51.919 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:51.920 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:51.920 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:51.920 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:51.921 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:51.921 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:51.921 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:51.922 | INFO  | Started test suite 'Cookies'
+20180330 12:30:51.989 | INFO  | Started test case 'Get Cookies'
+20180330 12:30:52.082 | INFO  | Ended test case 'Get Cookies'
+20180330 12:30:52.083 | INFO  | Started test case 'Get Cookie Value Set By Selenium'
+20180330 12:30:52.146 | INFO  | Ended test case 'Get Cookie Value Set By Selenium'
+20180330 12:30:52.147 | INFO  | Started test case 'Get Cookie Value Set By App'
+20180330 12:30:52.246 | INFO  | Ended test case 'Get Cookie Value Set By App'
+20180330 12:30:52.248 | INFO  | Started test case 'App Sees Cookie Set By Selenium'
+20180330 12:30:52.341 | INFO  | Ended test case 'App Sees Cookie Set By Selenium'
+20180330 12:30:52.342 | INFO  | Started test case 'Add Cookie When Secure Is Default'
+20180330 12:30:52.413 | INFO  | Ended test case 'Add Cookie When Secure Is Default'
+20180330 12:30:52.414 | INFO  | Started test case 'Add Cookie When Secure Is False'
+20180330 12:30:52.482 | INFO  | Ended test case 'Add Cookie When Secure Is False'
+20180330 12:30:52.483 | INFO  | Started test case 'Add Cookie When Expiry Is Epoch'
+20180330 12:30:52.548 | INFO  | Ended test case 'Add Cookie When Expiry Is Epoch'
+20180330 12:30:52.549 | INFO  | Started test case 'Add Cookie When Expiry Is Human Readable Data&Time'
+20180330 12:30:52.615 | INFO  | Ended test case 'Add Cookie When Expiry Is Human Readable Data&Time'
+20180330 12:30:52.615 | INFO  | Started test case 'Delete Cookie'
+20180330 12:30:52.715 | INFO  | Ended test case 'Delete Cookie'
+20180330 12:30:52.716 | INFO  | Started test case 'Non-existent Cookie'
+20180330 12:30:52.758 | INFO  | Ended test case 'Non-existent Cookie'
+20180330 12:30:52.759 | INFO  | Started test case 'Get Cookies When There Are None'
+20180330 12:30:52.848 | INFO  | Ended test case 'Get Cookies When There Are None'
+20180330 12:30:52.849 | INFO  | Started test case 'Test Get Cookie Object Expiry'
+20180330 12:30:52.893 | INFO  | Ended test case 'Test Get Cookie Object Expiry'
+20180330 12:30:52.894 | INFO  | Started test case 'Test Get Cookie Object Domain'
+20180330 12:30:52.960 | INFO  | Ended test case 'Test Get Cookie Object Domain'
+20180330 12:30:52.960 | INFO  | Started test case 'Test Get Cookie Object HttpOnly'
+20180330 12:30:53.019 | INFO  | Ended test case 'Test Get Cookie Object HttpOnly'
+20180330 12:30:53.020 | INFO  | Started test case 'Test Get Cookie Object Name'
+20180330 12:30:53.072 | INFO  | Ended test case 'Test Get Cookie Object Name'
+20180330 12:30:53.073 | INFO  | Started test case 'Test Get Cookie Object Path'
+20180330 12:30:53.121 | INFO  | Ended test case 'Test Get Cookie Object Path'
+20180330 12:30:53.121 | INFO  | Started test case 'Test Get Cookie Object Secure'
+20180330 12:30:53.169 | INFO  | Ended test case 'Test Get Cookie Object Secure'
+20180330 12:30:53.170 | INFO  | Started test case 'Test Get Cookie Object Value'
+20180330 12:30:53.223 | INFO  | Ended test case 'Test Get Cookie Object Value'
+20180330 12:30:53.224 | INFO  | Started test case 'Test Get Cookie Keyword Logging'
+20180330 12:30:53.314 | INFO  | Ended test case 'Test Get Cookie Keyword Logging'
+20180330 12:30:53.353 | INFO  | Ended test suite 'Cookies'
+20180330 12:30:53.354 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Counting Elements'
+20180330 12:30:53.354 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:53.355 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:53.355 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:53.355 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:53.355 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:53.356 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:53.356 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:53.357 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:53.358 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:53.358 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:53.358 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:53.359 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:53.359 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:53.359 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:53.360 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:53.364 | INFO  | Imported test library class 'robot.libraries.String' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\String.py'.
+20180330 12:30:53.365 | INFO  | Adding keyword 'ROBOT_LIBRARY_SCOPE' to library 'String' failed: Not a method or function
+20180330 12:30:53.365 | INFO  | Adding keyword 'ROBOT_LIBRARY_VERSION' to library 'String' failed: Not a method or function
+20180330 12:30:53.373 | INFO  | Imported library 'String' with arguments [ ] (version 3.0.2, class type, global scope, 30 keywords)
+20180330 12:30:53.375 | INFO  | Started test suite 'Counting Elements'
+20180330 12:30:53.376 | INFO  | Started test case 'Get Matching XPath Count'
+20180330 12:30:53.547 | INFO  | Ended test case 'Get Matching XPath Count'
+20180330 12:30:53.548 | INFO  | Started test case 'Xpath Should Match X Times'
+20180330 12:30:53.700 | INFO  | Ended test case 'Xpath Should Match X Times'
+20180330 12:30:53.702 | INFO  | Started test case 'Locator Should Match X Times'
+20180330 12:30:54.057 | INFO  | Ended test case 'Locator Should Match X Times'
+20180330 12:30:54.058 | INFO  | Started test case 'Locator Should Match X Times Error'
+20180330 12:30:54.161 | INFO  | Ended test case 'Locator Should Match X Times Error'
+20180330 12:30:54.162 | INFO  | Started test case 'Get Element Count With Xpath Locator'
+20180330 12:30:54.270 | INFO  | Ended test case 'Get Element Count With Xpath Locator'
+20180330 12:30:54.271 | INFO  | Started test case 'Get Element Count With Default Locator'
+20180330 12:30:54.428 | INFO  | Ended test case 'Get Element Count With Default Locator'
+20180330 12:30:54.429 | INFO  | Started test case 'Get Element Count With Name Locator'
+20180330 12:30:54.797 | INFO  | Ended test case 'Get Element Count With Name Locator'
+20180330 12:30:54.798 | INFO  | Started test case 'Get Element Count Should Not Fail When Zero Elements Is Found'
+20180330 12:30:55.321 | INFO  | Ended test case 'Get Element Count Should Not Fail When Zero Elements Is Found'
+20180330 12:30:55.322 | INFO  | Started test case 'Page Should Contain Element When Limit Is None'
+20180330 12:30:55.409 | INFO  | Ended test case 'Page Should Contain Element When Limit Is None'
+20180330 12:30:55.410 | INFO  | Started test case 'Page Should Contain Element When Limit Is Number'
+20180330 12:30:55.784 | INFO  | Ended test case 'Page Should Contain Element When Limit Is Number'
+20180330 12:30:55.785 | INFO  | Started test case 'Page Should Contain Element Log Level Does Not Affect When Keyword Passes'
+20180330 12:30:56.036 | INFO  | Ended test case 'Page Should Contain Element Log Level Does Not Affect When Keyword Passes'
+20180330 12:30:56.037 | INFO  | Started test case 'Page Should Contain Element When Limit Is Number And Error'
+20180330 12:30:56.202 | INFO  | Ended test case 'Page Should Contain Element When Limit Is Number And Error'
+20180330 12:30:56.203 | INFO  | Started test case 'Page Should Contain Element When Limit Is Not Number'
+20180330 12:30:56.389 | INFO  | Ended test case 'Page Should Contain Element When Limit Is Not Number'
+20180330 12:30:56.390 | INFO  | Started test case 'Page Should Contain Element When Error With Limit And Different Loglevels'
+20180330 12:30:56.714 | INFO  | Ended test case 'Page Should Contain Element When Error With Limit And Different Loglevels'
+20180330 12:30:56.724 | INFO  | Ended test suite 'Counting Elements'
+20180330 12:30:56.725 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Element Focus'
+20180330 12:30:56.726 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:30:56.726 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:30:56.727 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:30:56.728 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:30:56.728 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:30:56.729 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:30:56.730 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:30:56.731 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:30:56.733 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:30:56.733 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:30:56.734 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:30:56.734 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:30:56.736 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:30:56.737 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:30:56.738 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:30:56.743 | INFO  | Started test suite 'Element Focus'
+20180330 12:31:03.732 | INFO  | Started test case 'Should Be Focused'
+20180330 12:31:03.982 | INFO  | Ended test case 'Should Be Focused'
+20180330 12:31:03.985 | INFO  | Started test case 'Should Not Be Focused'
+20180330 12:31:04.119 | INFO  | Ended test case 'Should Not Be Focused'
+20180330 12:31:04.120 | INFO  | Started test case 'Unexistent Element Not Focused'
+20180330 12:31:04.231 | INFO  | Ended test case 'Unexistent Element Not Focused'
+20180330 12:31:04.233 | INFO  | Started test case 'Span Element Not Focused'
+20180330 12:31:04.333 | INFO  | Ended test case 'Span Element Not Focused'
+20180330 12:31:04.334 | INFO  | Started test case 'Table Element Not Focused'
+20180330 12:31:04.612 | INFO  | Ended test case 'Table Element Not Focused'
+20180330 12:31:04.613 | INFO  | Started test case 'Radio Button Should Be Focused'
+20180330 12:31:05.048 | INFO  | Ended test case 'Radio Button Should Be Focused'
+20180330 12:31:05.050 | INFO  | Started test case 'Checkbox Should Be Focused'
+20180330 12:31:05.392 | INFO  | Ended test case 'Checkbox Should Be Focused'
+20180330 12:31:05.394 | INFO  | Started test case 'Select Button Should Be Focused'
+20180330 12:31:05.550 | INFO  | Ended test case 'Select Button Should Be Focused'
+20180330 12:31:05.551 | INFO  | Started test case 'Submit Button Should Be Focused'
+20180330 12:31:05.951 | INFO  | Ended test case 'Submit Button Should Be Focused'
+20180330 12:31:05.952 | INFO  | Started test case 'Set Focus To Element'
+20180330 12:31:06.024 | INFO  | Ended test case 'Set Focus To Element'
+20180330 12:31:06.024 | INFO  | Started test case 'Focus is deprecated'
+20180330 12:31:06.177 | INFO  | Ended test case 'Focus is deprecated'
+20180330 12:31:06.184 | INFO  | Ended test suite 'Element Focus'
+20180330 12:31:06.185 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Element Should Be Enabled And Disabled'
+20180330 12:31:06.185 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:06.186 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:06.187 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:06.187 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:06.187 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:06.187 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:06.189 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:06.190 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:06.191 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:06.191 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:06.192 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:06.192 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:06.192 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:06.193 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:06.193 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:06.194 | INFO  | Started test suite 'Element Should Be Enabled And Disabled'
+20180330 12:31:06.195 | INFO  | Started test case 'Input Text'
+20180330 12:31:06.455 | INFO  | Ended test case 'Input Text'
+20180330 12:31:06.456 | INFO  | Started test case 'Input Password'
+20180330 12:31:06.575 | INFO  | Ended test case 'Input Password'
+20180330 12:31:06.576 | INFO  | Started test case 'Input Button'
+20180330 12:31:06.886 | INFO  | Ended test case 'Input Button'
+20180330 12:31:06.887 | INFO  | Started test case 'Textarea'
+20180330 12:31:07.048 | INFO  | Ended test case 'Textarea'
+20180330 12:31:07.048 | INFO  | Started test case 'Button'
+20180330 12:31:07.401 | INFO  | Ended test case 'Button'
+20180330 12:31:07.402 | INFO  | Started test case 'Option'
+20180330 12:31:07.560 | INFO  | Ended test case 'Option'
+20180330 12:31:07.560 | INFO  | Started test case 'Disabled with different syntaxes'
+20180330 12:31:07.799 | INFO  | Ended test case 'Disabled with different syntaxes'
+20180330 12:31:07.800 | INFO  | Started test case 'Readonly with different syntaxes'
+20180330 12:31:08.012 | INFO  | Ended test case 'Readonly with different syntaxes'
+20180330 12:31:08.013 | INFO  | Started test case 'Not Input nor Editable Element'
+20180330 12:31:08.193 | INFO  | Ended test case 'Not Input nor Editable Element'
+20180330 12:31:08.196 | INFO  | Ended test suite 'Element Should Be Enabled And Disabled'
+20180330 12:31:08.196 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Element Visibility'
+20180330 12:31:08.197 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:08.198 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:08.198 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:08.199 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:08.199 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:08.200 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:08.200 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:08.201 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:08.202 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:08.202 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:08.202 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:08.203 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:08.203 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:08.203 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:08.204 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:08.205 | INFO  | Started test suite 'Element Visibility'
+20180330 12:31:08.206 | INFO  | Started test case 'Wait Until Element Is Visible'
+20180330 12:31:08.397 | INFO  | Ended test case 'Wait Until Element Is Visible'
+20180330 12:31:08.398 | INFO  | Started test case 'Wait Until Element Is Visible with locator and error arguments'
+20180330 12:31:08.591 | INFO  | Ended test case 'Wait Until Element Is Visible with locator and error arguments'
+20180330 12:31:08.592 | INFO  | Started test case 'Wait Until Element Is Visible with locator only'
+20180330 12:31:08.767 | INFO  | Ended test case 'Wait Until Element Is Visible with locator only'
+20180330 12:31:08.768 | INFO  | Started test case 'Wait Until Element Is Not Visible'
+20180330 12:31:08.979 | INFO  | Ended test case 'Wait Until Element Is Not Visible'
+20180330 12:31:08.979 | INFO  | Started test case 'Element Should Be Visible'
+20180330 12:31:09.166 | INFO  | Ended test case 'Element Should Be Visible'
+20180330 12:31:09.167 | INFO  | Started test case 'Element Should Not Be Visible'
+20180330 12:31:09.391 | INFO  | Ended test case 'Element Should Not Be Visible'
+20180330 12:31:09.394 | INFO  | Ended test suite 'Element Visibility'
+20180330 12:31:09.394 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Elements'
+20180330 12:31:09.395 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:09.395 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:09.395 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:09.396 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:09.396 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:09.397 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:09.397 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:09.399 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:09.400 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:09.400 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:09.400 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:09.401 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:09.401 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:09.401 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:09.402 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:09.402 | INFO  | Imported test library class 'robot.libraries.String' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\String.py'.
+20180330 12:31:09.402 | INFO  | Found test library 'String' with arguments [ ] from cache
+20180330 12:31:09.404 | INFO  | Started test suite 'Elements'
+20180330 12:31:09.408 | INFO  | Started test case 'Get Elements'
+20180330 12:31:10.115 | INFO  | Ended test case 'Get Elements'
+20180330 12:31:10.116 | INFO  | Started test case 'Get Web Element'
+20180330 12:31:10.538 | INFO  | Ended test case 'Get Web Element'
+20180330 12:31:10.539 | INFO  | Started test case 'More Get Elements'
+20180330 12:31:10.654 | INFO  | Ended test case 'More Get Elements'
+20180330 12:31:10.654 | INFO  | Started test case 'Assign Id To Element'
+20180330 12:31:10.989 | INFO  | Ended test case 'Assign Id To Element'
+20180330 12:31:10.990 | INFO  | Started test case 'Get Element Attribute'
+20180330 12:31:11.043 | WARN  | Using 'Get Element Attribute' without explicit attribute is deprecated.
+20180330 12:31:11.088 | INFO  | Ended test case 'Get Element Attribute'
+20180330 12:31:11.089 | INFO  | Started test case 'Get Element Attribute Value Should Be Should Be Succesfull'
+20180330 12:31:11.141 | INFO  | Ended test case 'Get Element Attribute Value Should Be Should Be Succesfull'
+20180330 12:31:11.142 | INFO  | Started test case 'Get Element Attribute And Element Attribute Value Should Be Should have same results'
+20180330 12:31:11.221 | INFO  | Ended test case 'Get Element Attribute And Element Attribute Value Should Be Should have same results'
+20180330 12:31:11.222 | INFO  | Started test case 'Get Element Attribute Value Should Be Should Be Succesfull with non-ascii characters'
+20180330 12:31:11.284 | INFO  | Ended test case 'Get Element Attribute Value Should Be Should Be Succesfull with non-ascii characters'
+20180330 12:31:11.286 | INFO  | Started test case 'Get Element Attribute Value Should Be Should Be Succesfull error and errors messages'
+20180330 12:31:11.775 | INFO  | Ended test case 'Get Element Attribute Value Should Be Should Be Succesfull error and errors messages'
+20180330 12:31:11.776 | INFO  | Started test case 'Get Horizontal Position'
+20180330 12:31:11.955 | INFO  | Ended test case 'Get Horizontal Position'
+20180330 12:31:11.955 | INFO  | Started test case 'Get Vertical Position'
+20180330 12:31:12.190 | INFO  | Ended test case 'Get Vertical Position'
+20180330 12:31:12.191 | INFO  | Started test case 'Get Element Size'
+20180330 12:31:12.327 | INFO  | Ended test case 'Get Element Size'
+20180330 12:31:12.327 | INFO  | Started test case 'Get Empty Element Size'
+20180330 12:31:12.659 | INFO  | Ended test case 'Get Empty Element Size'
+20180330 12:31:12.664 | INFO  | Ended test suite 'Elements'
+20180330 12:31:12.666 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Forms And Buttons'
+20180330 12:31:12.666 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:12.667 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:12.667 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:12.668 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:12.668 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:12.668 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:12.669 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:12.670 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:12.670 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:12.670 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:12.671 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:12.671 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:12.671 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:12.671 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:12.672 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:12.672 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:12.672 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:12.672 | INFO  | Test library 'OperatingSystem' already imported by suite 'Acceptance.Keywords.Forms And Buttons'
+20180330 12:31:12.673 | INFO  | Started test suite 'Forms And Buttons'
+20180330 12:31:12.674 | INFO  | Started test case 'Submit Form'
+20180330 12:31:12.754 | INFO  | Ended test case 'Submit Form'
+20180330 12:31:12.754 | INFO  | Started test case 'Submit Form Without Args'
+20180330 12:31:13.083 | INFO  | Ended test case 'Submit Form Without Args'
+20180330 12:31:13.083 | INFO  | Started test case 'Click Ok Button By Name'
+20180330 12:31:13.173 | INFO  | Ended test case 'Click Ok Button By Name'
+20180330 12:31:13.174 | INFO  | Started test case 'Click Cancel Button By Name'
+20180330 12:31:13.254 | INFO  | Ended test case 'Click Cancel Button By Name'
+20180330 12:31:13.255 | INFO  | Started test case 'Click Ok Button By Value'
+20180330 12:31:13.476 | INFO  | Ended test case 'Click Ok Button By Value'
+20180330 12:31:13.479 | INFO  | Started test case 'Click Cancel Button By Value'
+20180330 12:31:13.674 | INFO  | Ended test case 'Click Cancel Button By Value'
+20180330 12:31:13.675 | INFO  | Started test case 'Click button created with <button> by id'
+20180330 12:31:14.106 | INFO  | Ended test case 'Click button created with <button> by id'
+20180330 12:31:14.107 | INFO  | Started test case 'Click button created with <button> by value attribute'
+20180330 12:31:14.455 | INFO  | Ended test case 'Click button created with <button> by value attribute'
+20180330 12:31:14.456 | INFO  | Started test case 'Click button created with <button> by tag content'
+20180330 12:31:14.801 | INFO  | Ended test case 'Click button created with <button> by tag content'
+20180330 12:31:14.802 | INFO  | Started test case 'Choose File'
+20180330 12:31:14.902 | INFO  | Ended test case 'Choose File'
+20180330 12:31:14.903 | INFO  | Started test case 'Click Image With Submit Type Images'
+20180330 12:31:15.561 | INFO  | Ended test case 'Click Image With Submit Type Images'
+20180330 12:31:15.565 | INFO  | Ended test suite 'Forms And Buttons'
+20180330 12:31:15.566 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Frames'
+20180330 12:31:15.567 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:15.567 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:15.568 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:15.568 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:15.569 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:15.569 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:15.571 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:15.573 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:15.574 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:15.574 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:15.574 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:15.575 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:15.575 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:15.575 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:15.576 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:15.577 | INFO  | Started test suite 'Frames'
+20180330 12:31:15.578 | INFO  | Started test case 'Frame Should Contain'
+20180330 12:31:16.202 | INFO  | Ended test case 'Frame Should Contain'
+20180330 12:31:16.202 | INFO  | Started test case 'Frame Should Contain should also work with iframes'
+20180330 12:31:16.673 | INFO  | Ended test case 'Frame Should Contain should also work with iframes'
+20180330 12:31:16.674 | INFO  | Started test case 'Current Frame Should (Not) Contain'
+20180330 12:31:16.817 | INFO  | Ended test case 'Current Frame Should (Not) Contain'
+20180330 12:31:16.820 | INFO  | Started test case 'Current Frame Contains is deprecated'
+20180330 12:31:17.094 | INFO  | Ended test case 'Current Frame Contains is deprecated'
+20180330 12:31:17.095 | INFO  | Started test case 'Page Should Contain Text Within Frames'
+20180330 12:31:17.739 | INFO  | Ended test case 'Page Should Contain Text Within Frames'
+20180330 12:31:17.740 | INFO  | Started test case 'Page Should Contain Text Within Frames should also work with iframes'
+20180330 12:31:18.147 | INFO  | Ended test case 'Page Should Contain Text Within Frames should also work with iframes'
+20180330 12:31:18.150 | INFO  | Started test case 'Select And Unselect Frame'
+20180330 12:31:18.272 | INFO  | Ended test case 'Select And Unselect Frame'
+20180330 12:31:18.273 | INFO  | Started test case 'Select And Unselect Frame should also work with iframes'
+20180330 12:31:18.510 | INFO  | Ended test case 'Select And Unselect Frame should also work with iframes'
+20180330 12:31:18.511 | INFO  | Started test case 'Select Frame with non-unique name attribute'
+20180330 12:31:18.692 | INFO  | Ended test case 'Select Frame with non-unique name attribute'
+20180330 12:31:18.699 | INFO  | Ended test suite 'Frames'
+20180330 12:31:18.699 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Javascript'
+20180330 12:31:18.699 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:18.700 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:18.701 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:18.701 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:18.702 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:18.702 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:18.703 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:18.704 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:18.704 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:18.705 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:18.705 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:18.706 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:18.706 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:18.706 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:18.712 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:18.714 | INFO  | Started test suite 'Javascript'
+20180330 12:31:18.715 | INFO  | Started test case 'Clicking Elements Should Activate Javascript'
+20180330 12:31:18.902 | INFO  | Ended test case 'Clicking Elements Should Activate Javascript'
+20180330 12:31:18.903 | INFO  | Started test case 'Mouse Down On Link'
+20180330 12:31:19.088 | INFO  | Ended test case 'Mouse Down On Link'
+20180330 12:31:19.089 | INFO  | Started test case 'Execute Javascript'
+20180330 12:31:19.150 | INFO  | Ended test case 'Execute Javascript'
+20180330 12:31:19.151 | INFO  | Started test case 'Execute Javascript from File'
+20180330 12:31:19.203 | INFO  | Ended test case 'Execute Javascript from File'
+20180330 12:31:19.203 | INFO  | Started test case 'Open Context Menu'
+20180330 12:31:19.803 | INFO  | Ended test case 'Open Context Menu'
+20180330 12:31:19.803 | INFO  | Started test case 'Drag and Drop'
+20180330 12:31:20.556 | INFO  | Ended test case 'Drag and Drop'
+20180330 12:31:20.557 | INFO  | Started test case 'Drag and Drop by Offset'
+20180330 12:31:21.011 | INFO  | Ended test case 'Drag and Drop by Offset'
+20180330 12:31:21.016 | INFO  | Ended test suite 'Javascript'
+20180330 12:31:21.017 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Lists'
+20180330 12:31:21.018 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:21.018 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:21.018 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:21.019 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:21.019 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:21.019 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:21.020 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:21.021 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:21.021 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:21.021 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:21.022 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:21.022 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:21.022 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:21.023 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:21.023 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:21.024 | INFO  | Started test suite 'Lists'
+20180330 12:31:21.025 | INFO  | Started test case 'Get List Items From Single-Select List'
+20180330 12:31:21.111 | INFO  | Ended test case 'Get List Items From Single-Select List'
+20180330 12:31:21.112 | INFO  | Started test case 'Get List Items From Multi-Select List'
+20180330 12:31:21.210 | INFO  | Ended test case 'Get List Items From Multi-Select List'
+20180330 12:31:21.211 | INFO  | Started test case 'Get List Values From Single-Select List'
+20180330 12:31:21.295 | INFO  | Ended test case 'Get List Values From Single-Select List'
+20180330 12:31:21.296 | INFO  | Started test case 'Get List Values From Multi-Select List'
+20180330 12:31:21.403 | INFO  | Ended test case 'Get List Values From Multi-Select List'
+20180330 12:31:21.404 | INFO  | Started test case 'Get Selected List Value'
+20180330 12:31:21.483 | INFO  | Ended test case 'Get Selected List Value'
+20180330 12:31:21.483 | INFO  | Started test case 'Get Selected List Values'
+20180330 12:31:21.856 | INFO  | Ended test case 'Get Selected List Values'
+20180330 12:31:21.857 | INFO  | Started test case 'Get Selected List Label'
+20180330 12:31:22.247 | INFO  | Ended test case 'Get Selected List Label'
+20180330 12:31:22.251 | INFO  | Started test case 'Get Selected List Labels'
+20180330 12:31:22.426 | INFO  | Ended test case 'Get Selected List Labels'
+20180330 12:31:22.427 | INFO  | Started test case 'List Selection Should Be'
+20180330 12:31:22.801 | INFO  | Ended test case 'List Selection Should Be'
+20180330 12:31:22.803 | INFO  | Started test case 'List Selection Should Be When Extraneous Options Are Selected'
+20180330 12:31:23.219 | INFO  | Ended test case 'List Selection Should Be When Extraneous Options Are Selected'
+20180330 12:31:23.220 | INFO  | Started test case 'List Selection Should Be When List Does Not Exist'
+20180330 12:31:23.548 | INFO  | Ended test case 'List Selection Should Be When List Does Not Exist'
+20180330 12:31:23.549 | INFO  | Started test case 'UnSelect Single Value From List'
+20180330 12:31:23.923 | INFO  | Ended test case 'UnSelect Single Value From List'
+20180330 12:31:23.924 | INFO  | Started test case 'Unselect all options using Unselect From List'
+20180330 12:31:24.021 | INFO  | Ended test case 'Unselect all options using Unselect From List'
+20180330 12:31:24.022 | INFO  | Started test case 'Unselect All From List'
+20180330 12:31:24.175 | INFO  | Ended test case 'Unselect All From List'
+20180330 12:31:24.176 | INFO  | Started test case 'Select From Single Selection List'
+20180330 12:31:24.409 | INFO  | Ended test case 'Select From Single Selection List'
+20180330 12:31:24.411 | INFO  | Started test case 'Select Non-Existing Item From Single Selection List'
+20180330 12:31:24.551 | INFO  | Ended test case 'Select Non-Existing Item From Single Selection List'
+20180330 12:31:24.551 | INFO  | Started test case 'Select Non-Existing Item From Multi-Selection List'
+20180330 12:31:24.800 | INFO  | Ended test case 'Select Non-Existing Item From Multi-Selection List'
+20180330 12:31:24.803 | INFO  | Started test case 'Unselect Non-Existing Item From List'
+20180330 12:31:24.935 | INFO  | Ended test case 'Unselect Non-Existing Item From List'
+20180330 12:31:24.936 | INFO  | Started test case 'Select From Multiselect List'
+20180330 12:31:25.184 | INFO  | Ended test case 'Select From Multiselect List'
+20180330 12:31:25.185 | INFO  | Started test case 'Select All From List'
+20180330 12:31:25.314 | INFO  | Ended test case 'Select All From List'
+20180330 12:31:25.315 | INFO  | Started test case 'List Should Have No Selections'
+20180330 12:31:25.573 | INFO  | Ended test case 'List Should Have No Selections'
+20180330 12:31:25.579 | INFO  | Ended test suite 'Lists'
+20180330 12:31:25.580 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Mouse'
+20180330 12:31:25.581 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:25.581 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:25.582 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:25.583 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:25.583 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:25.583 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:25.584 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:25.585 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:25.586 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:25.586 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:25.586 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:25.586 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:25.587 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:25.587 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:25.588 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:25.589 | INFO  | Started test suite 'Mouse'
+20180330 12:31:25.590 | INFO  | Started test case 'Mouse Over'
+20180330 12:31:25.673 | INFO  | Ended test case 'Mouse Over'
+20180330 12:31:25.674 | INFO  | Started test case 'Mouse Out'
+20180330 12:31:25.790 | INFO  | Ended test case 'Mouse Out'
+20180330 12:31:25.790 | INFO  | Started test case 'Mouse Down'
+20180330 12:31:25.980 | INFO  | Ended test case 'Mouse Down'
+20180330 12:31:25.981 | INFO  | Started test case 'Mouse Up'
+20180330 12:31:26.210 | INFO  | Ended test case 'Mouse Up'
+20180330 12:31:26.211 | INFO  | Started test case 'Simulate Event'
+20180330 12:31:26.371 | INFO  | Ended test case 'Simulate Event'
+20180330 12:31:26.372 | INFO  | Started test case 'Simulate is deprecated'
+20180330 12:31:26.598 | INFO  | Ended test case 'Simulate is deprecated'
+20180330 12:31:26.601 | INFO  | Ended test suite 'Mouse'
+20180330 12:31:26.602 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Navigation'
+20180330 12:31:26.602 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:26.603 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:26.603 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:26.603 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:26.604 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:26.604 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:26.605 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:26.607 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:26.608 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:26.608 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:26.609 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:26.609 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:26.610 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:26.610 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:26.611 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:26.618 | INFO  | Started test suite 'Navigation'
+20180330 12:31:26.619 | INFO  | Started test case 'Go To'
+20180330 12:31:26.738 | INFO  | Ended test case 'Go To'
+20180330 12:31:26.739 | INFO  | Started test case 'Go Back'
+20180330 12:31:26.836 | INFO  | Ended test case 'Go Back'
+20180330 12:31:26.836 | INFO  | Started test case 'Click Link'
+20180330 12:31:27.010 | INFO  | Ended test case 'Click Link'
+20180330 12:31:27.012 | INFO  | Started test case 'Click Link With Whitespace'
+20180330 12:31:27.143 | INFO  | Ended test case 'Click Link With Whitespace'
+20180330 12:31:27.145 | INFO  | Started test case 'Click Link With Embedded Whitespace'
+20180330 12:31:27.434 | INFO  | Ended test case 'Click Link With Embedded Whitespace'
+20180330 12:31:27.435 | INFO  | Started test case 'Click Link With Bolded Link Text'
+20180330 12:31:27.539 | INFO  | Ended test case 'Click Link With Bolded Link Text'
+20180330 12:31:27.540 | INFO  | Started test case 'Click Link By Id'
+20180330 12:31:27.949 | INFO  | Ended test case 'Click Link By Id'
+20180330 12:31:27.950 | INFO  | Started test case 'Click Link By Href'
+20180330 12:31:28.286 | INFO  | Ended test case 'Click Link By Href'
+20180330 12:31:28.287 | INFO  | Started test case 'Click Link With Double Quote'
+20180330 12:31:28.512 | INFO  | Ended test case 'Click Link With Double Quote'
+20180330 12:31:28.514 | INFO  | Started test case 'Click Link With Special Characters'
+20180330 12:31:28.930 | INFO  | Ended test case 'Click Link With Special Characters'
+20180330 12:31:28.931 | INFO  | Started test case 'Click Link With Unicode'
+20180330 12:31:29.181 | INFO  | Ended test case 'Click Link With Unicode'
+20180330 12:31:29.182 | INFO  | Started test case 'Click Image'
+20180330 12:31:29.676 | INFO  | Ended test case 'Click Image'
+20180330 12:31:29.678 | INFO  | Started test case 'Click Image By Alt'
+20180330 12:31:29.838 | INFO  | Ended test case 'Click Image By Alt'
+20180330 12:31:29.839 | INFO  | Started test case 'Click Image By Id'
+20180330 12:31:30.110 | INFO  | Ended test case 'Click Image By Id'
+20180330 12:31:30.111 | INFO  | Started test case 'Click Image By XPath'
+20180330 12:31:30.490 | INFO  | Ended test case 'Click Image By XPath'
+20180330 12:31:30.491 | INFO  | Started test case 'Click Link With Text And Image'
+20180330 12:31:30.906 | INFO  | Ended test case 'Click Link With Text And Image'
+20180330 12:31:30.907 | INFO  | Started test case 'Target Opens in New Window'
+20180330 12:31:31.101 | INFO  | Ended test case 'Target Opens in New Window'
+20180330 12:31:31.105 | INFO  | Ended test suite 'Navigation'
+20180330 12:31:31.107 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Run On Failure'
+20180330 12:31:31.108 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:31.109 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:31.110 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:31.110 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:31.111 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:31.112 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:31.115 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:31.117 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:31.118 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:31.118 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:31.119 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:31.119 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:31.119 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:31.120 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:31.120 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:31.129 | INFO  | Started test suite 'Run On Failure'
+20180330 12:31:31.225 | INFO  | Imported test library class 'CustomSeleniumKeywords' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\resources\testlibs\CustomSeleniumKeywords.py'.
+20180330 12:31:31.259 | INFO  | Started test case 'Run On Failure Keyword Only Called Once'
+20180330 12:31:31.264 | INFO  | Ended test case 'Run On Failure Keyword Only Called Once'
+20180330 12:31:31.266 | INFO  | Started test case 'Log Title On Failure'
+20180330 12:31:31.267 | INFO  | Ended test case 'Log Title On Failure'
+20180330 12:31:31.268 | INFO  | Started test case 'Disable Run on Failure'
+20180330 12:31:31.269 | INFO  | Ended test case 'Disable Run on Failure'
+20180330 12:31:31.270 | INFO  | Started test case 'Run on Failure Returns Previous Value'
+20180330 12:31:31.271 | INFO  | Ended test case 'Run on Failure Returns Previous Value'
+20180330 12:31:31.272 | INFO  | Started test case 'Run On Failure also fails'
+20180330 12:31:31.273 | INFO  | Ended test case 'Run On Failure also fails'
+20180330 12:31:31.282 | INFO  | Ended test suite 'Run On Failure'
+20180330 12:31:31.283 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Screenshots'
+20180330 12:31:31.283 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:31:31.283 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:31:31.284 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:31:31.284 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:31:31.284 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:31:31.285 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:31:31.285 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:31:31.286 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:31:31.287 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:31:31.287 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:31:31.288 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:31:31.288 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:31:31.288 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:31:31.288 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:31:31.290 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:31:31.295 | INFO  | Started test suite 'Screenshots'
+20180330 12:31:31.338 | INFO  | Started test case 'Capture page screenshot to default location'
+20180330 12:31:31.753 | INFO  | Ended test case 'Capture page screenshot to default location'
+20180330 12:31:31.754 | INFO  | Started test case 'Capture page screenshot to custom file'
+20180330 12:31:32.086 | INFO  | Ended test case 'Capture page screenshot to custom file'
+20180330 12:31:32.087 | INFO  | Started test case 'Capture page screenshot to custom directory'
+20180330 12:31:32.402 | INFO  | Ended test case 'Capture page screenshot to custom directory'
+20180330 12:31:32.403 | INFO  | Started test case 'Capture page screenshot to non-existing directory'
+20180330 12:31:32.750 | INFO  | Ended test case 'Capture page screenshot to non-existing directory'
+20180330 12:31:32.751 | INFO  | Started test case 'Set Screenshot Directory'
+20180330 12:31:33.113 | INFO  | Ended test case 'Set Screenshot Directory'
+20180330 12:31:33.114 | INFO  | Started test case 'Set Screenshot Directory set back to previous value'
+20180330 12:31:33.437 | INFO  | Ended test case 'Set Screenshot Directory set back to previous value'
+20180330 12:31:33.438 | INFO  | Started test case 'Capture page screenshot with unique index'
+20180330 12:31:34.479 | INFO  | Ended test case 'Capture page screenshot with unique index'
+20180330 12:31:34.480 | INFO  | Started test case 'Capturing a page screenshot with two indexes should not cause an error'
+20180330 12:31:34.793 | INFO  | Ended test case 'Capturing a page screenshot with two indexes should not cause an error'
+20180330 12:31:34.794 | INFO  | Started test case 'Capture page screenshot with index formatting'
+20180330 12:31:35.426 | INFO  | Ended test case 'Capture page screenshot with index formatting'
+20180330 12:31:35.431 | INFO  | Started test case 'Capture page screenshot with escaped braces'
+20180330 12:31:36.064 | INFO  | Ended test case 'Capture page screenshot with escaped braces'
+20180330 12:31:36.065 | INFO  | Started test case 'Capture page screenshot computed name is unique'
+20180330 12:31:36.747 | INFO  | Ended test case 'Capture page screenshot computed name is unique'
+20180330 12:31:36.748 | INFO  | Started test case 'Capture page screenshot advanced formatting name is unique'
+20180330 12:31:37.416 | INFO  | Ended test case 'Capture page screenshot advanced formatting name is unique'
+20180330 12:31:37.417 | INFO  | Started test case 'Capture page screenshot explicit name will overwrite'
+20180330 12:31:37.807 | INFO  | Ended test case 'Capture page screenshot explicit name will overwrite'
+20180330 12:31:37.808 | INFO  | Started test case 'Capture page screenshot with closed browser'
+20180330 12:31:50.352 | INFO  | Ended test case 'Capture page screenshot with closed browser'
+20180330 12:31:50.353 | INFO  | Started test case 'Set screenshot directory when importing'
+20180330 12:31:50.362 | INFO  | Imported test library class 'SeleniumLibrary' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\SeleniumLibrary\__init__.py'.
+20180330 12:31:50.456 | INFO  | Imported library 'SeleniumLibrary' with arguments [ screenshot_root_directory=C:\Users\jying\AppData\Local\Temp ] (version 3.1.1, dynamic type, global scope, 177 keywords, with listener)
+20180330 12:31:50.459 | INFO  | Imported library 'SeleniumLibrary' with name 'SL2'
+20180330 12:32:00.116 | INFO  | Ended test case 'Set screenshot directory when importing'
+20180330 12:32:00.123 | INFO  | Ended test suite 'Screenshots'
+20180330 12:32:00.124 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Scroll Into View'
+20180330 12:32:00.125 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:00.125 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:00.125 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:00.126 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:00.126 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:00.126 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:00.127 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:00.128 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:00.129 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:00.129 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:00.130 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:00.130 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:00.130 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:00.130 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:00.130 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:00.132 | INFO  | Started test suite 'Scroll Into View'
+20180330 12:32:06.077 | INFO  | Started test case 'Verify Scroll Element Into View'
+20180330 12:32:06.452 | INFO  | Ended test case 'Verify Scroll Element Into View'
+20180330 12:32:06.455 | INFO  | Ended test suite 'Scroll Into View'
+20180330 12:32:06.456 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Set Selenium Speed'
+20180330 12:32:06.457 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:06.458 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:06.459 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:06.459 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:06.459 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:06.460 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:06.460 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:06.461 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:06.462 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:06.462 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:06.463 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:06.463 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:06.463 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:06.464 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:06.464 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:06.465 | INFO  | Started test suite 'Set Selenium Speed'
+20180330 12:32:06.569 | INFO  | Started test case 'Settimg selenium speed is possible multiple times'
+20180330 12:32:06.577 | INFO  | Ended test case 'Settimg selenium speed is possible multiple times'
+20180330 12:32:06.579 | INFO  | Started test case 'Selenium speed should affect execution'
+20180330 12:32:07.652 | INFO  | Ended test case 'Selenium speed should affect execution'
+20180330 12:32:07.653 | INFO  | Started test case 'Selenium speed should affect before browser is opened'
+20180330 12:32:22.805 | INFO  | Ended test case 'Selenium speed should affect before browser is opened'
+20180330 12:32:22.806 | INFO  | Started test case 'Selenium speed should affect all browsers'
+20180330 12:32:38.844 | INFO  | Ended test case 'Selenium speed should affect all browsers'
+20180330 12:32:38.849 | INFO  | Ended test suite 'Set Selenium Speed'
+20180330 12:32:38.849 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables'
+20180330 12:32:38.850 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:38.851 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:38.851 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:38.851 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:38.851 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:38.852 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:38.854 | INFO  | Parsing file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot'.
+20180330 12:32:38.854 | INFO  | Imported resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' (1 keywords).
+20180330 12:32:38.856 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:38.857 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:38.858 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:38.858 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:38.858 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:38.859 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:38.859 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:38.859 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:38.860 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:38.865 | INFO  | Started test suite 'Tables'
+20180330 12:32:38.962 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables.Col Should Contain'
+20180330 12:32:38.963 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:38.964 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:38.965 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:38.966 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:38.966 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:38.972 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:38.978 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' from cache
+20180330 12:32:38.979 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:38.981 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:38.982 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:38.983 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:38.983 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:38.984 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:38.984 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:38.985 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:38.985 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:38.987 | INFO  | Started test suite 'Col Should Contain'
+20180330 12:32:38.987 | INFO  | Started test case 'Should Find Text In Specific Column'
+20180330 12:32:39.565 | INFO  | Ended test case 'Should Find Text In Specific Column'
+20180330 12:32:39.566 | INFO  | Started test case 'Mixed th and td'
+20180330 12:32:39.857 | INFO  | Ended test case 'Mixed th and td'
+20180330 12:32:39.858 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Column'
+20180330 12:32:39.892 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Column'
+20180330 12:32:39.893 | INFO  | Started test case 'Should Give Error Message When Column Number Out Of Bounds'
+20180330 12:32:39.926 | INFO  | Ended test case 'Should Give Error Message When Column Number Out Of Bounds'
+20180330 12:32:39.927 | INFO  | Started test case 'Zero is invalid column index'
+20180330 12:32:39.940 | INFO  | Ended test case 'Zero is invalid column index'
+20180330 12:32:39.942 | INFO  | Ended test suite 'Col Should Contain'
+20180330 12:32:39.942 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables.Finding Tables'
+20180330 12:32:39.943 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:39.943 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:39.943 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:39.944 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:39.944 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:39.944 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:39.946 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' from cache
+20180330 12:32:39.951 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:39.954 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:39.954 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:39.955 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:39.956 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:39.956 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:39.956 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:39.956 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:39.957 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:39.961 | INFO  | Started test suite 'Finding Tables'
+20180330 12:32:39.962 | INFO  | Started test case 'Should Identify Table By CSS'
+20180330 12:32:40.000 | INFO  | Ended test case 'Should Identify Table By CSS'
+20180330 12:32:40.001 | INFO  | Started test case 'Should Identify Table By xpath'
+20180330 12:32:40.032 | INFO  | Ended test case 'Should Identify Table By xpath'
+20180330 12:32:40.036 | INFO  | Started test case 'Should Identify Table By id'
+20180330 12:32:40.069 | INFO  | Ended test case 'Should Identify Table By id'
+20180330 12:32:40.070 | INFO  | Started test case 'Should Identify Table By name'
+20180330 12:32:40.110 | INFO  | Ended test case 'Should Identify Table By name'
+20180330 12:32:40.111 | INFO  | Started test case 'Should Identify Table By default'
+20180330 12:32:40.147 | INFO  | Ended test case 'Should Identify Table By default'
+20180330 12:32:40.150 | INFO  | Ended test suite 'Finding Tables'
+20180330 12:32:40.150 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables.Footer Should Contain'
+20180330 12:32:40.151 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:40.151 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:40.152 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:40.152 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:40.153 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:40.153 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:40.154 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' from cache
+20180330 12:32:40.154 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:40.156 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:40.156 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:40.156 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:40.157 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:40.157 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:40.157 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:40.158 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:40.158 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:40.162 | INFO  | Started test suite 'Footer Should Contain'
+20180330 12:32:40.163 | INFO  | Started test case 'Should Find Text In Footer'
+20180330 12:32:40.280 | INFO  | Ended test case 'Should Find Text In Footer'
+20180330 12:32:40.281 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Footer'
+20180330 12:32:40.305 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Footer'
+20180330 12:32:40.307 | INFO  | Ended test suite 'Footer Should Contain'
+20180330 12:32:40.308 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables.Get Table Cell'
+20180330 12:32:40.309 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:40.309 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:40.309 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:40.310 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:40.310 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:40.310 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:40.311 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' from cache
+20180330 12:32:40.312 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:40.312 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:40.313 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:40.313 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:40.314 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:40.314 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:40.314 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:40.315 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:40.315 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:40.317 | INFO  | Started test suite 'Get Table Cell'
+20180330 12:32:40.318 | INFO  | Started test case 'Should Retrieve Text From Cell'
+20180330 12:32:40.757 | INFO  | Ended test case 'Should Retrieve Text From Cell'
+20180330 12:32:40.758 | INFO  | Started test case 'Mixed th and td'
+20180330 12:32:41.139 | INFO  | Ended test case 'Mixed th and td'
+20180330 12:32:41.139 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Cell'
+20180330 12:32:41.170 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Cell'
+20180330 12:32:41.171 | INFO  | Started test case 'Should Give Error Message When Index Out Of Bounds'
+20180330 12:32:41.206 | INFO  | Ended test case 'Should Give Error Message When Index Out Of Bounds'
+20180330 12:32:41.207 | INFO  | Started test case 'Zero is invalid row and column index'
+20180330 12:32:41.218 | INFO  | Ended test case 'Zero is invalid row and column index'
+20180330 12:32:41.220 | INFO  | Ended test suite 'Get Table Cell'
+20180330 12:32:41.221 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables.Header Should Contain'
+20180330 12:32:41.221 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:41.222 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:41.222 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:41.222 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:41.223 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:41.223 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:41.223 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' from cache
+20180330 12:32:41.224 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:41.225 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:41.226 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:41.226 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:41.227 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:41.227 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:41.227 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:41.228 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:41.228 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:41.236 | INFO  | Started test suite 'Header Should Contain'
+20180330 12:32:41.237 | INFO  | Started test case 'Should Find Text In Header'
+20180330 12:32:41.466 | INFO  | Ended test case 'Should Find Text In Header'
+20180330 12:32:41.467 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Header'
+20180330 12:32:41.505 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Header'
+20180330 12:32:41.507 | INFO  | Ended test suite 'Header Should Contain'
+20180330 12:32:41.507 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables.Negative Indexes'
+20180330 12:32:41.508 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:41.508 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:41.508 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:41.509 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:41.509 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:41.509 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:41.511 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' from cache
+20180330 12:32:41.512 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:41.513 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:41.514 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:41.514 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:41.515 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:41.515 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:41.515 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:41.515 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:41.516 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:41.522 | INFO  | Started test suite 'Negative Indexes'
+20180330 12:32:41.522 | INFO  | Started test case 'Test negative index for CSS strategy in 'Table Row Should Contain''
+20180330 12:32:41.552 | INFO  | Ended test case 'Test negative index for CSS strategy in 'Table Row Should Contain''
+20180330 12:32:41.553 | INFO  | Started test case 'Test negative index for XPath strategy in 'Table Row Should Contain''
+20180330 12:32:41.590 | INFO  | Ended test case 'Test negative index for XPath strategy in 'Table Row Should Contain''
+20180330 12:32:41.595 | INFO  | Started test case 'Test negative index for CSS strategy in 'Table Column Should Contain''
+20180330 12:32:41.624 | INFO  | Ended test case 'Test negative index for CSS strategy in 'Table Column Should Contain''
+20180330 12:32:41.625 | INFO  | Started test case 'Test negative index for XPath strategy in 'Table Column Should Contain''
+20180330 12:32:41.653 | INFO  | Ended test case 'Test negative index for XPath strategy in 'Table Column Should Contain''
+20180330 12:32:41.654 | INFO  | Started test case 'Test negative index for XPath strategy in 'Table Cell Should Contain''
+20180330 12:32:41.676 | INFO  | Ended test case 'Test negative index for XPath strategy in 'Table Cell Should Contain''
+20180330 12:32:41.677 | INFO  | Started test case 'Test negative index for CSS strategy in 'Table Cell Should Contain''
+20180330 12:32:41.722 | INFO  | Ended test case 'Test negative index for CSS strategy in 'Table Cell Should Contain''
+20180330 12:32:41.724 | INFO  | Ended test suite 'Negative Indexes'
+20180330 12:32:41.724 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables.Row Should Contain'
+20180330 12:32:41.725 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:41.725 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:41.726 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:41.746 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:41.747 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:41.747 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:41.748 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' from cache
+20180330 12:32:41.749 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:41.751 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:41.753 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:41.754 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:41.754 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:41.755 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:41.755 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:41.755 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:41.756 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:41.758 | INFO  | Started test suite 'Row Should Contain'
+20180330 12:32:41.759 | INFO  | Started test case 'Should Find Text In Specific Row'
+20180330 12:32:42.442 | INFO  | Ended test case 'Should Find Text In Specific Row'
+20180330 12:32:42.443 | INFO  | Started test case 'Should Find Text In Specific Row with CSS Specific Mechanics'
+20180330 12:32:42.470 | INFO  | Ended test case 'Should Find Text In Specific Row with CSS Specific Mechanics'
+20180330 12:32:42.471 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table Row'
+20180330 12:32:42.497 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table Row'
+20180330 12:32:42.497 | INFO  | Started test case 'Should Give Error Message When Row Number Out Of Bounds'
+20180330 12:32:42.523 | INFO  | Ended test case 'Should Give Error Message When Row Number Out Of Bounds'
+20180330 12:32:42.524 | INFO  | Started test case 'Zero is invalid column index'
+20180330 12:32:42.528 | INFO  | Ended test case 'Zero is invalid column index'
+20180330 12:32:42.531 | INFO  | Ended test suite 'Row Should Contain'
+20180330 12:32:42.531 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Tables.Table Should Contain'
+20180330 12:32:42.531 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:42.532 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:42.532 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:42.532 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:42.532 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:42.533 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:42.533 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\keywords\tables\table_resource.robot' from cache
+20180330 12:32:42.534 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:42.536 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:42.537 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:42.537 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:42.537 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:42.537 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:42.538 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:42.538 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:42.538 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:42.544 | INFO  | Started test suite 'Table Should Contain'
+20180330 12:32:42.545 | INFO  | Started test case 'Should Find Text In Table Content'
+20180330 12:32:43.079 | INFO  | Ended test case 'Should Find Text In Table Content'
+20180330 12:32:43.080 | INFO  | Started test case 'Should Give Error Message When Content Not Found In Table'
+20180330 12:32:43.107 | INFO  | Ended test case 'Should Give Error Message When Content Not Found In Table'
+20180330 12:32:43.109 | INFO  | Ended test suite 'Table Should Contain'
+20180330 12:32:43.123 | INFO  | Ended test suite 'Tables'
+20180330 12:32:43.124 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Textfields'
+20180330 12:32:43.124 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:43.125 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:43.125 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:43.125 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:43.125 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:43.126 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:43.126 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:43.128 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:43.128 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:43.129 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:43.129 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:43.129 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:43.130 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:43.130 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:43.131 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:43.136 | INFO  | Started test suite 'Textfields'
+20180330 12:32:43.137 | INFO  | Started test case 'Get Value From Text Field'
+20180330 12:32:43.241 | INFO  | Ended test case 'Get Value From Text Field'
+20180330 12:32:43.242 | INFO  | Started test case 'Input Text and Input Password'
+20180330 12:32:43.545 | INFO  | Ended test case 'Input Text and Input Password'
+20180330 12:32:43.546 | INFO  | Started test case 'Input Non-ASCII Text'
+20180330 12:32:43.629 | INFO  | Ended test case 'Input Non-ASCII Text'
+20180330 12:32:43.629 | INFO  | Started test case 'Press Key'
+20180330 12:32:43.709 | INFO  | Ended test case 'Press Key'
+20180330 12:32:43.714 | INFO  | Started test case 'Attempt Clear Element Text On Non-Editable Field'
+20180330 12:32:43.852 | INFO  | Ended test case 'Attempt Clear Element Text On Non-Editable Field'
+20180330 12:32:43.855 | INFO  | Ended test suite 'Textfields'
+20180330 12:32:43.855 | INFO  | Initializing namespace for test suite 'Acceptance.Keywords.Waiting'
+20180330 12:32:43.856 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:43.856 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:43.856 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:43.857 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:43.857 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:43.857 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:43.858 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:43.859 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:43.859 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:43.860 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:43.860 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:43.860 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:43.860 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:43.861 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:43.861 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:43.863 | INFO  | Started test suite 'Waiting'
+20180330 12:32:43.863 | INFO  | Started test case 'Wait For Condition'
+20180330 12:32:45.221 | INFO  | Ended test case 'Wait For Condition'
+20180330 12:32:45.221 | INFO  | Started test case 'Wait For Condition Comlext Wait'
+20180330 12:32:45.315 | INFO  | Ended test case 'Wait For Condition Comlext Wait'
+20180330 12:32:45.316 | INFO  | Started test case 'Wait For Condition requires `return`'
+20180330 12:32:45.375 | INFO  | Ended test case 'Wait For Condition requires `return`'
+20180330 12:32:45.375 | INFO  | Started test case 'Wait Until Page Contains'
+20180330 12:32:45.787 | INFO  | Ended test case 'Wait Until Page Contains'
+20180330 12:32:45.794 | INFO  | Started test case 'Wait Until Page Does Not Contain'
+20180330 12:32:46.026 | INFO  | Ended test case 'Wait Until Page Does Not Contain'
+20180330 12:32:46.027 | INFO  | Started test case 'Wait Until Page Contains Element'
+20180330 12:32:47.199 | INFO  | Ended test case 'Wait Until Page Contains Element'
+20180330 12:32:47.201 | INFO  | Started test case 'Wait Until Page Does Not Contain Element'
+20180330 12:32:47.338 | INFO  | Ended test case 'Wait Until Page Does Not Contain Element'
+20180330 12:32:47.338 | INFO  | Started test case 'Wait Until Element Is Enabled'
+20180330 12:32:47.601 | INFO  | Ended test case 'Wait Until Element Is Enabled'
+20180330 12:32:47.602 | INFO  | Started test case 'Wait Until Element Is Enabled with readonly element'
+20180330 12:32:47.727 | INFO  | Ended test case 'Wait Until Element Is Enabled with readonly element'
+20180330 12:32:47.728 | INFO  | Started test case 'Wait Until Element Contains'
+20180330 12:32:47.994 | INFO  | Ended test case 'Wait Until Element Contains'
+20180330 12:32:47.995 | INFO  | Started test case 'Wait Until Element Does Not Contain'
+20180330 12:32:48.093 | INFO  | Ended test case 'Wait Until Element Does Not Contain'
+20180330 12:32:48.094 | INFO  | Started test case 'Timeout can be zero'
+20180330 12:32:48.349 | INFO  | Ended test case 'Timeout can be zero'
+20180330 12:32:48.355 | INFO  | Ended test suite 'Waiting'
+20180330 12:32:54.708 | INFO  | Ended test suite 'Keywords'
+20180330 12:32:54.717 | INFO  | Initializing namespace for test suite 'Acceptance.Locators'
+20180330 12:32:54.718 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:32:54.718 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:32:54.718 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:32:54.719 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:32:54.719 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:32:54.719 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:32:54.720 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:32:54.721 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:32:54.721 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:32:54.722 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:32:54.722 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:32:54.722 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:32:54.723 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:32:54.723 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:32:54.723 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:32:54.730 | INFO  | Started test suite 'Locators'
+20180330 12:33:00.878 | INFO  | Initializing namespace for test suite 'Acceptance.Locators.Custom'
+20180330 12:33:00.879 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:33:00.880 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:33:00.880 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:33:00.880 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:33:00.880 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:33:00.881 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:33:00.882 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:33:00.884 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:33:00.885 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:33:00.885 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:33:00.886 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:33:00.886 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:33:00.887 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:33:00.887 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:33:00.888 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:33:00.890 | INFO  | Started test suite 'Custom'
+20180330 12:33:01.155 | INFO  | Started test case 'Test Custom Locator'
+20180330 12:33:01.236 | INFO  | Ended test case 'Test Custom Locator'
+20180330 12:33:01.240 | INFO  | Started test case 'Ensure Locator Auto Unregisters'
+20180330 12:33:01.247 | INFO  | Ended test case 'Ensure Locator Auto Unregisters'
+20180330 12:33:01.247 | INFO  | Started test case 'Ensure Attempting to Unregister a Default Locator Fails'
+20180330 12:33:01.280 | INFO  | Ended test case 'Ensure Attempting to Unregister a Default Locator Fails'
+20180330 12:33:01.281 | INFO  | Started test case 'Ensure Unregistering Non-Existent Locator Fails'
+20180330 12:33:01.303 | INFO  | Ended test case 'Ensure Unregistering Non-Existent Locator Fails'
+20180330 12:33:01.305 | INFO  | Started test case 'Ensure a Custom Locator can be Unregistered'
+20180330 12:33:01.312 | INFO  | Ended test case 'Ensure a Custom Locator can be Unregistered'
+20180330 12:33:01.313 | INFO  | Started test case 'Ensure Locators Can Persist'
+20180330 12:33:01.365 | INFO  | Ended test case 'Ensure Locators Can Persist'
+20180330 12:33:01.369 | INFO  | Ended test suite 'Custom'
+20180330 12:33:01.370 | INFO  | Initializing namespace for test suite 'Acceptance.Locators.Locator Parsing'
+20180330 12:33:01.370 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:33:01.371 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:33:01.371 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:33:01.371 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:33:01.371 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:33:01.372 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:33:01.372 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:33:01.373 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:33:01.374 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:33:01.374 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:33:01.374 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:33:01.374 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:33:01.375 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:33:01.375 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:33:01.375 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:33:01.376 | INFO  | Started test suite 'Locator Parsing'
+20180330 12:33:01.377 | INFO  | Started test case 'xpath with prefix should work'
+20180330 12:33:01.529 | INFO  | Ended test case 'xpath with prefix should work'
+20180330 12:33:01.530 | INFO  | Started test case 'xpath with // and without prefix should work'
+20180330 12:33:01.947 | INFO  | Ended test case 'xpath with // and without prefix should work'
+20180330 12:33:01.948 | INFO  | Started test case 'xpath with (// and without prefix should work'
+20180330 12:33:02.069 | INFO  | Ended test case 'xpath with (// and without prefix should work'
+20180330 12:33:02.070 | INFO  | Started test case 'Locator without prefix'
+20180330 12:33:02.173 | INFO  | Ended test case 'Locator without prefix'
+20180330 12:33:02.174 | INFO  | Started test case 'Locator with prefix'
+20180330 12:33:02.278 | INFO  | Ended test case 'Locator with prefix'
+20180330 12:33:02.285 | INFO  | Started test case 'Locator with separator but without matching prefix is not special'
+20180330 12:33:02.690 | INFO  | Ended test case 'Locator with separator but without matching prefix is not special'
+20180330 12:33:02.691 | INFO  | Started test case 'Locator with separator and with matchign prefix cannot be used as-is'
+20180330 12:33:02.937 | INFO  | Ended test case 'Locator with separator and with matchign prefix cannot be used as-is'
+20180330 12:33:02.940 | INFO  | Ended test suite 'Locator Parsing'
+20180330 12:33:02.941 | INFO  | Initializing namespace for test suite 'Acceptance.Locators.Sizzle'
+20180330 12:33:02.941 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:33:02.942 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:33:02.942 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:33:02.942 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:33:02.942 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:33:02.943 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:33:02.943 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:33:02.944 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:33:02.945 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:33:02.945 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:33:02.946 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:33:02.946 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:33:02.946 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:33:02.946 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:33:02.947 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:33:02.948 | INFO  | Started test suite 'Sizzle'
+20180330 12:33:02.954 | INFO  | Started test case 'Find By Id'
+20180330 12:33:03.404 | INFO  | Ended test case 'Find By Id'
+20180330 12:33:03.406 | INFO  | Started test case 'Find In Table'
+20180330 12:33:03.532 | INFO  | Ended test case 'Find In Table'
+20180330 12:33:03.532 | INFO  | Started test case 'Find By Everything Else'
+20180330 12:33:03.928 | INFO  | Ended test case 'Find By Everything Else'
+20180330 12:33:03.936 | INFO  | Ended test suite 'Sizzle'
+20180330 12:33:07.106 | INFO  | Ended test suite 'Locators'
+20180330 12:33:07.106 | INFO  | Initializing namespace for test suite 'Acceptance.Multiple Browsers'
+20180330 12:33:07.107 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:33:07.108 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:33:07.108 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:33:07.108 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:33:07.108 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:33:07.108 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:33:07.109 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:33:07.110 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:33:07.110 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:33:07.111 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:33:07.112 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:33:07.112 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:33:07.112 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:33:07.113 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:33:07.113 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:33:07.114 | INFO  | Started test suite 'Multiple Browsers'
+20180330 12:33:19.848 | INFO  | Started test case 'Last Opened Browser Should Be Active'
+20180330 12:33:19.918 | INFO  | Ended test case 'Last Opened Browser Should Be Active'
+20180330 12:33:19.922 | INFO  | Started test case 'It Should Be Possible To Switch Between Browsers Using Indexes'
+20180330 12:33:19.949 | INFO  | Ended test case 'It Should Be Possible To Switch Between Browsers Using Indexes'
+20180330 12:33:19.956 | INFO  | Started test case 'It Should Be Give An Alias To New Browser Instance'
+20180330 12:33:27.806 | INFO  | Ended test case 'It Should Be Give An Alias To New Browser Instance'
+20180330 12:33:27.807 | INFO  | Started test case 'It Should Be Possible Close A Browser'
+20180330 12:33:49.764 | INFO  | Ended test case 'It Should Be Possible Close A Browser'
+20180330 12:33:49.765 | INFO  | Started test case 'Correct Error Message Should Be Given When Trying To Switch To Non-Existing Browser'
+20180330 12:33:49.806 | INFO  | Ended test case 'Correct Error Message Should Be Given When Trying To Switch To Non-Existing Browser'
+20180330 12:33:59.483 | INFO  | Ended test suite 'Multiple Browsers'
+20180330 12:33:59.484 | INFO  | Initializing namespace for test suite 'Acceptance.Open And Close'
+20180330 12:33:59.484 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:33:59.486 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:33:59.486 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:33:59.486 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:33:59.487 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:33:59.487 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:33:59.489 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:33:59.490 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:33:59.490 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:33:59.492 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:33:59.493 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:33:59.493 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:33:59.494 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:33:59.494 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:33:59.494 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:33:59.495 | INFO  | Started test suite 'Open And Close'
+20180330 12:33:59.498 | INFO  | Started test case 'Browser Should Open And Close'
+20180330 12:34:08.764 | INFO  | Ended test case 'Browser Should Open And Close'
+20180330 12:34:08.764 | INFO  | Started test case 'Browser Open With Implicit Wait Should Not Override Default'
+20180330 12:34:18.267 | INFO  | Ended test case 'Browser Open With Implicit Wait Should Not Override Default'
+20180330 12:34:18.267 | INFO  | Started test case 'There Should Be A Good Error Message If Browser Is Not Opened'
+20180330 12:34:18.293 | INFO  | Ended test case 'There Should Be A Good Error Message If Browser Is Not Opened'
+20180330 12:34:18.295 | INFO  | Started test case 'Close Browser Does Nothing When No Browser Is Opened'
+20180330 12:34:18.299 | INFO  | Ended test case 'Close Browser Does Nothing When No Browser Is Opened'
+20180330 12:34:18.300 | INFO  | Started test case 'Browser Open With Not Well-Formed URL Should Close'
+20180330 12:34:27.285 | INFO  | Ended test case 'Browser Open With Not Well-Formed URL Should Close'
+20180330 12:34:27.286 | INFO  | Started test case 'Switch to closed browser is possible'
+20180330 12:34:50.603 | INFO  | Ended test case 'Switch to closed browser is possible'
+20180330 12:34:50.604 | INFO  | Started test case 'Closing all browsers clears cache'
+20180330 12:35:17.635 | INFO  | Ended test case 'Closing all browsers clears cache'
+20180330 12:35:17.646 | INFO  | Ended test suite 'Open And Close'
+20180330 12:35:17.647 | INFO  | Initializing namespace for test suite 'Acceptance.Public Api'
+20180330 12:35:17.648 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:35:17.651 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:35:17.651 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:35:17.652 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:35:17.652 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:35:17.653 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:35:17.656 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:35:17.657 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:35:17.658 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:35:17.658 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:35:17.659 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:35:17.659 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:35:17.659 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:35:17.660 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:35:17.661 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:35:17.661 | INFO  | Imported test library class 'CustomSeleniumKeywords' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\resources\testlibs\CustomSeleniumKeywords.py'.
+20180330 12:35:17.671 | ERROR | Error in file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\public_api.robot': Initializing test library 'CustomSeleniumKeywords' with no arguments failed: No library 'SeleniumLibrary' found.
+Traceback (most recent call last):
+  File "C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\resources\testlibs\CustomSeleniumKeywords.py", line 14, in __init__
+    sl = BuiltIn().get_library_instance("SeleniumLibrary")
+  File "C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py", line 3256, in get_library_instance
+    raise RuntimeError(unic(err))
+20180330 12:35:17.683 | INFO  | Started test suite 'Public Api'
+20180330 12:35:24.282 | INFO  | Started test case 'Find Element'
+20180330 12:35:24.319 | INFO  | Ended test case 'Find Element'
+20180330 12:35:24.321 | INFO  | Started test case 'Find Elements'
+20180330 12:35:24.358 | INFO  | Ended test case 'Find Elements'
+20180330 12:35:27.579 | INFO  | Ended test suite 'Public Api'
+20180330 12:35:27.580 | INFO  | Initializing namespace for test suite 'Acceptance.Windows'
+20180330 12:35:27.580 | INFO  | Imported test library class 'robot.libraries.BuiltIn' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\BuiltIn.py'.
+20180330 12:35:27.581 | INFO  | Found test library 'BuiltIn' with arguments [ ] from cache
+20180330 12:35:27.581 | INFO  | Imported test library class 'robot.libraries.Reserved' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Reserved.py'.
+20180330 12:35:27.583 | INFO  | Found test library 'Reserved' with arguments [ ] from cache
+20180330 12:35:27.584 | INFO  | Imported test library module 'robot.libraries.Easter' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Easter.py'.
+20180330 12:35:27.585 | INFO  | Found test library 'Easter' with arguments [ ] from cache
+20180330 12:35:27.587 | INFO  | Found resource file 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\acceptance\resource.robot' from cache
+20180330 12:35:27.590 | INFO  | Imported test library class 'SeleniumLibraryExtension' from 'C:\02. SourceCode\03. Github\SeleniumLibraryExtension\src\SeleniumLibraryExtension\__init__.py'.
+20180330 12:35:27.592 | INFO  | Found test library 'SeleniumLibraryExtension' with arguments [ run_on_failure=Nothing | implicit_wait=0.2 seconds ] from cache
+20180330 12:35:27.593 | INFO  | Imported test library class 'robot.libraries.Collections' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\Collections.py'.
+20180330 12:35:27.593 | INFO  | Found test library 'Collections' with arguments [ ] from cache
+20180330 12:35:27.594 | INFO  | Imported test library class 'robot.libraries.OperatingSystem' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\OperatingSystem.py'.
+20180330 12:35:27.594 | INFO  | Found test library 'OperatingSystem' with arguments [ ] from cache
+20180330 12:35:27.594 | INFO  | Imported test library module 'robot.libraries.DateTime' from 'C:\025F37~1.SOU\992676~1.ENV\RobotEnv\lib\site-packages\robot\libraries\DateTime.py'.
+20180330 12:35:27.595 | INFO  | Found test library 'DateTime' with arguments [ ] from cache
+20180330 12:35:27.600 | INFO  | Started test suite 'Windows'
+20180330 12:35:33.854 | INFO  | Started test case 'Popup Windows Created With Javascript'
+20180330 12:35:34.146 | INFO  | Ended test case 'Popup Windows Created With Javascript'
+20180330 12:35:34.147 | INFO  | Started test case 'Get Window Titles'
+20180330 12:35:34.301 | INFO  | Ended test case 'Get Window Titles'
+20180330 12:35:34.302 | INFO  | Started test case 'Get Title'
+20180330 12:35:34.448 | INFO  | Ended test case 'Get Title'
+20180330 12:35:34.449 | INFO  | Started test case 'Get Location'
+20180330 12:35:34.585 | INFO  | Ended test case 'Get Location'
+20180330 12:35:34.586 | INFO  | Started test case 'Get Locations'
+20180330 12:35:34.791 | INFO  | Ended test case 'Get Locations'
+20180330 12:35:34.793 | INFO  | Started test case 'Get Window Names'
+20180330 12:35:35.240 | INFO  | Ended test case 'Get Window Names'
+20180330 12:35:35.241 | INFO  | Started test case 'Get Window Identifiers'
+20180330 12:35:35.487 | INFO  | Ended test case 'Get Window Identifiers'
+20180330 12:35:35.488 | INFO  | Started test case 'Get and Set Window Size'
+20180330 12:35:36.730 | INFO  | Ended test case 'Get and Set Window Size'
+20180330 12:35:36.731 | INFO  | Started test case 'Set Window Size using strings'
+20180330 12:35:37.232 | INFO  | Ended test case 'Set Window Size using strings'
+20180330 12:35:37.237 | INFO  | Started test case 'Get and Set Window Position'
+20180330 12:35:37.509 | INFO  | Ended test case 'Get and Set Window Position'
+20180330 12:35:37.531 | INFO  | Started test case 'Set Window Position using strings'
+20180330 12:35:37.891 | INFO  | Ended test case 'Set Window Position using strings'
+20180330 12:35:37.892 | INFO  | Started test case 'Select Window By Title After Close Window'
+20180330 12:35:38.389 | INFO  | Ended test case 'Select Window By Title After Close Window'
+20180330 12:35:38.389 | INFO  | Started test case 'Get Window Titles After Close Window'
+20180330 12:35:38.497 | INFO  | Ended test case 'Get Window Titles After Close Window'
+20180330 12:35:38.499 | INFO  | Started test case 'Select Window By Handle'
+20180330 12:35:38.611 | INFO  | Ended test case 'Select Window By Handle'
+20180330 12:35:38.611 | INFO  | Started test case 'Select Popup Window By Excluded List'
+20180330 12:35:38.947 | INFO  | Ended test case 'Select Popup Window By Excluded List'
+20180330 12:35:38.952 | INFO  | Started test case 'Select Window By Special Locator'
+20180330 12:35:39.048 | INFO  | Ended test case 'Select Window By Special Locator'
+20180330 12:35:42.191 | INFO  | Ended test suite 'Windows'
+20180330 12:35:42.297 | INFO  | Ended test suite 'Acceptance'
+20180330 12:35:42.363 | INFO  | Output: C:\02. SourceCode\03. Github\SeleniumLibraryExtension\atest\results\output.xml
+20180330 12:35:42.371 | INFO  | Tests execution ended. Statistics:
+365 critical tests, 93 passed, 272 failed
+365 tests total, 93 passed, 272 failed
